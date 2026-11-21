@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#194f42" />
+    <link rel="icon" href="/compass.svg" />
+    <title>Đi mô ở Huế? · HUB Vi Vu</title>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <span class="seal" data-icon="compass"></span>HUB Vi Vu
+      </div>
+      <span class="divider"></span><span class="series">Đi mô ở Huế</span
+      ><span class="city"><i></i> Thành phố Huế</span>
+    </header>
+    <section class="toolbar" aria-label="Tìm kiếm và lọc">
+      <label class="search"
+        ><i data-icon="search"></i
+        ><input
+          type="search"
+          id="query"
+          placeholder="Tìm địa điểm, quán ăn, cà phê…"
+          aria-label="Tìm địa điểm"
+      /></label>
+      <div class="filters">
+        <i data-icon="sliders-horizontal"></i
+        ><label
+          ><select id="bank" aria-label="Lọc theo bờ">
+            <option value="">Cả hai bờ</option>
+            <option value="bo_bac">Bờ Bắc</option>
+            <option value="bo_nam">Bờ Nam</option>
+          </select></label
+        ><label
+          ><select id="category" aria-label="Lọc theo loại hình">
+            <option value="">Mọi loại hình</option>
+            <option value="landmark">Địa danh</option>
+            <option value="ca_phe">Cà phê</option>
+            <option value="tra_sua">Trà sữa</option>
+            <option value="quan_an">Quán ăn</option>
+          </select></label
+        >
+      </div>
+    </section>
+    <main>
+      <aside id="panel">
+        <div class="cover">
+          <div class="eyebrow">CẨM NANG KHÁM PHÁ</div>
+          <h1>Đi mô ở <em>Huế?</em></h1>
+          <img src="/gate.svg" alt="" />
+        </div>
+        <div class="listHead">
+          <h2>Địa điểm khám phá</h2>
+          <span id="count"></span>
+        </div>
+        <section id="list" aria-label="Danh sách địa điểm"></section>
+      </aside>
+      <section class="mapFrame" aria-label="Bản đồ Huế">
+        <div id="map"></div>
+        <div class="mapBadge">
+          <i></i><span id="tier">Bản đồ tổng quan</span>
+        </div>
+        <div class="controls">
+          <button
+            id="home"
+            aria-label="Về khung nhìn tổng quan"
+            title="Về tổng quan"
+            data-icon="locate-fixed"
+          ></button>
+          <div>
+            <button id="plus" aria-label="Phóng to" data-icon="plus"></button
+            ><button id="minus" aria-label="Thu nhỏ" data-icon="minus"></button>
+          </div>
+        </div>
+        <div id="detail" hidden></div>
+      </section>
+    </main>
+    <footer>
+      <nav aria-label="Menu chính">
+        <button id="explore" class="active">
+          <i data-icon="map"></i>Bản đồ</button
+        ><button id="directory"><i data-icon="list"></i>Địa điểm</button
+        ><button id="saved"><i data-icon="bookmark"></i>Đã lưu</button>
+      </nav>
+      <div class="footBrand">HUB Vi Vu <span>✳</span> Huế</div>
+    </footer>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

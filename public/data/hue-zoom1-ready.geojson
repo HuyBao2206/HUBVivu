@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "name": "hub_vivu_hue_zoom1_ready_points",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hue-z1-lbl-bo-bac",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.581,
+          16.4805
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lbl-bo-bac",
+        "name_standard": "Bờ Bắc",
+        "object_type": "diem_nhan_de_xuat",
+        "riverbank": "bo_bac",
+        "minzoom": 11.5,
+        "maxzoom": 14.2,
+        "is_proposed_anchor": true,
+        "verification_status": "san_sang_de_xuat",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lbl-bo-nam",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59,
+          16.4535
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lbl-bo-nam",
+        "name_standard": "Bờ Nam",
+        "object_type": "diem_nhan_de_xuat",
+        "riverbank": "bo_nam",
+        "minzoom": 11.5,
+        "maxzoom": 14.2,
+        "is_proposed_anchor": true,
+        "verification_status": "san_sang_de_xuat",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-dai-noi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57778,
+          16.46972
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-dai-noi",
+        "name_standard": "Đại Nội Huế",
+        "alt_names": "Hoàng thành Huế; Kinh thành Huế",
+        "object_type": "diem_bieu_tuong",
+        "riverbank": "bo_bac",
+        "minzoom": 11.5,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-chua-thien-mu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.544812,
+          16.453599
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-chua-thien-mu",
+        "name_standard": "Chùa Thiên Mụ",
+        "alt_names": "Chùa Linh Mụ",
+        "object_type": "diem_bieu_tuong",
+        "riverbank": "bo_bac",
+        "minzoom": 11.0,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-cho-dong-ba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.588501,
+          16.472622
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-cho-dong-ba",
+        "name_standard": "Chợ Đông Ba",
+        "object_type": "diem_khu_am_thuc_cho",
+        "riverbank": "bo_bac",
+        "minzoom": 12.0,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-cau-truong-tien",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.588611,
+          16.468889
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-cau-truong-tien",
+        "name_standard": "Cầu Trường Tiền",
+        "alt_names": "Cầu Tràng Tiền",
+        "object_type": "diem_bieu_tuong",
+        "riverbank": "noi_hai_bo",
+        "minzoom": 12.0,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-vincom-plaza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.59426,
+          16.46296
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-vincom-plaza",
+        "name_standard": "Vincom Plaza Huế",
+        "object_type": "diem_tttm_am_thuc",
+        "riverbank": "bo_nam",
+        "minzoom": 12.5,
+        "verification_status": "san_sang_ban_giao",
+        "coord_source_note": "OSM way 749331141 via Mapcarta (ODbL, <100 features)",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-con-hen",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.593258,
+          16.474267
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-con-hen",
+        "name_standard": "Cồn Hến",
+        "object_type": "diem_khu_am_thuc_tu_nhien",
+        "riverbank": "giua_song",
+        "minzoom": 12.5,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-ga-hue",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.57875,
+          16.456764
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-ga-hue",
+        "name_standard": "Ga Huế",
+        "object_type": "diem_dinh_vi_giao_thong",
+        "riverbank": "bo_nam",
+        "minzoom": 12.5,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-quoc-hoc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.583789,
+          16.461481
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-quoc-hoc",
+        "name_standard": "Trường THPT chuyên Quốc Học – Huế",
+        "object_type": "diem_bieu_tuong",
+        "riverbank": "bo_nam",
+        "minzoom": 13.0,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hue-z1-lm-cung-an-dinh",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.598275,
+          16.456761
+        ]
+      },
+      "properties": {
+        "id": "hue-z1-lm-cung-an-dinh",
+        "name_standard": "Cung An Định",
+        "object_type": "diem_bieu_tuong",
+        "riverbank": "bo_nam",
+        "minzoom": 13.0,
+        "verification_status": "san_sang_ban_giao",
+        "checked_date": "2026-11-22"
+      }
+    }
+  ]
+}

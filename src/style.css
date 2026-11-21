@@ -1,0 +1,620 @@
+:root {
+  --ink: #223b32;
+  --green: #205645;
+  --paper: #fbfaf5;
+  --line: #dddcd1;
+  color: var(--ink);
+  font:
+    14px "Be Vietnam Pro",
+    sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+button,
+select {
+  cursor: pointer;
+}
+button {
+  background: none;
+  border: 0;
+}
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 3px solid #b67541;
+  outline-offset: 2px;
+}
+button:hover {
+  filter: brightness(0.96);
+}
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.icon svg {
+  width: 19px;
+  height: 19px;
+  stroke-width: 1.7;
+}
+header,
+.toolbar,
+footer {
+  flex: none;
+  display: flex;
+  align-items: center;
+}
+header {
+  padding: 0 28px;
+  height: 68px;
+  border-bottom: 1px solid var(--line);
+  gap: 18px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font:
+    600 26px Lora,
+    serif;
+  letter-spacing: -1.4px;
+}
+.seal {
+  display: grid;
+  place-items: center;
+  color: #fbf3d6;
+  background: var(--green);
+  border-radius: 12px;
+  width: 38px;
+  height: 38px;
+}
+.seal svg {
+  width: 27px;
+  height: 27px;
+}
+.divider {
+  height: 22px;
+  border-left: 1px solid #cfcfc2;
+}
+.series {
+  font-size: 13px;
+  color: #71766a;
+}
+.city,
+.mapBadge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.city {
+  margin-left: auto;
+  border: 1px solid #d8dfd1;
+  border-radius: 20px;
+  padding: 7px 13px;
+  background: #f2f5eb;
+}
+.city i,
+.mapBadge i {
+  width: 7px;
+  height: 7px;
+  background: #568364;
+  border-radius: 50%;
+}
+.toolbar {
+  padding: 12px 24px;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+  background: #fffefa;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  width: 337px;
+  background: #f7f7f1;
+  color: #808577;
+}
+.search input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.filters > i {
+  margin-right: 5px;
+  color: #758074;
+}
+.filters label {
+  position: relative;
+}
+.filters select {
+  appearance: none;
+  border-radius: 25px;
+  background: var(--paper);
+  border: 1px solid #d7d9ce;
+  padding: 8px 32px 8px 14px;
+  font-size: 13px;
+}
+.filters label:after {
+  content: "⌄";
+  position: absolute;
+  right: 13px;
+  top: 5px;
+  pointer-events: none;
+  color: #697868;
+}
+main {
+  min-height: 0;
+  flex: 1;
+  display: flex;
+}
+aside {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  min-height: 0;
+  background: #fffef9;
+  flex-shrink: 0;
+}
+.cover {
+  position: relative;
+  isolation: isolate;
+  background: #204f40;
+  color: #fff8e5;
+  overflow: hidden;
+  height: 163px;
+  flex: none;
+  padding: 20px 23px;
+}
+.cover img {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.eyebrow {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #d5dcb8;
+}
+.cover h1 {
+  margin: 5px 0;
+  font:
+    600 36px Lora,
+    serif;
+  letter-spacing: -1.8px;
+}
+.cover h1 em {
+  color: #f0c78a;
+  font-weight: 500;
+}
+.listHead {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 21px 22px 12px;
+}
+.listHead h2,
+#detail h2 {
+  font:
+    600 20px Lora,
+    serif;
+  letter-spacing: -0.6px;
+  margin: 0;
+}
+.listHead span {
+  font-size: 11px;
+  background: #e9ede2;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+#list {
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d5d9ca transparent;
+  padding: 0 18px 12px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 3px;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid #e9e9df;
+}
+.row:hover {
+  background: #f4f4eb;
+}
+.rowText {
+  min-width: 0;
+  flex: 1;
+}
+.rowText strong,
+.rowText small {
+  display: block;
+}
+.rowText strong {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.rowText small,
+#detail small {
+  font-size: 11px;
+  line-height: 1.55;
+  color: #70776e;
+}
+.row > .icon svg {
+  width: 14px;
+  color: #999e91;
+}
+.tile {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 41px;
+  height: 43px;
+  border-radius: 10px;
+  color: var(--tone);
+  background: var(--wash);
+  border: 1px solid color-mix(in srgb, var(--tone) 11%, transparent);
+}
+.tile svg {
+  width: 22px;
+  height: 22px;
+}
+.gold {
+  --tone: #98712d;
+  --wash: #f4ead1;
+}
+.coral {
+  --tone: #ae5b3e;
+  --wash: #f8e6d9;
+}
+.blue {
+  --tone: #46798a;
+  --wash: #e0edf0;
+}
+.green {
+  --tone: #558065;
+  --wash: #e1ecdb;
+}
+.plum {
+  --tone: #86618a;
+  --wash: #eee5ef;
+}
+.mapFrame {
+  position: relative;
+  min-width: 0;
+  flex: 1;
+}
+#map {
+  position: absolute;
+  inset: 0;
+  background: #f2efe5;
+}
+.mapBadge,
+.controls button,
+#detail {
+  background: #fffef9;
+  border: 1px solid #d3d6c8;
+  box-shadow: 0 3px 10px #223c3020;
+}
+.mapBadge {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  pointer-events: none;
+  font-size: 11px;
+}
+.controls {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  display: grid;
+  gap: 9px;
+}
+.controls button {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+}
+.controls > div button:first-child {
+  border-radius: 8px 8px 0 0;
+}
+.controls > div button:last-child {
+  border-radius: 0 0 8px 8px;
+  border-top: none;
+}
+.marker {
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background: var(--tone);
+  border: 2px solid #fffdf4;
+  border-radius: 50%;
+  color: white;
+  box-shadow: 0 2px 4px #3d49364d;
+}
+.marker svg {
+  width: 17px;
+  height: 17px;
+  stroke-width: 1.8;
+}
+.pinLabel {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font:
+    600 10px "Be Vietnam Pro",
+    sans-serif;
+  color: #343f32;
+  border-radius: 4px;
+  background: #fffef4ee;
+  padding: 2px 5px;
+  box-shadow: 0 1px 3px #3d49362b;
+}
+.bubble {
+  position: absolute;
+  right: -9px;
+  top: -8px;
+  color: #fff;
+  background: #274f41;
+  border-radius: 50%;
+  padding: 0 4px;
+  font-size: 10px;
+}
+.maplibregl-ctrl-attrib {
+  font-size: 9px !important;
+}
+.maplibregl-ctrl-scale {
+  font-size: 9px !important;
+}
+.maplibregl-ctrl-bottom-left,
+.maplibregl-ctrl-bottom-right {
+  z-index: 1;
+}
+footer {
+  border-top: 1px solid var(--line);
+  min-height: 60px;
+  padding: 0 24px;
+  justify-content: space-between;
+  background: #fffef9;
+}
+nav {
+  display: flex;
+  gap: 8px;
+}
+nav button,
+.save {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 8px;
+  color: #6e776e;
+}
+nav .active,
+.save {
+  background: #e7eddf;
+  color: #245340;
+}
+.footBrand {
+  font:
+    italic 14px Lora,
+    serif;
+  color: #677568;
+}
+.footBrand span {
+  color: #b08d54;
+  padding: 0 6px;
+}
+#detail {
+  position: absolute;
+  bottom: 31px;
+  left: 16px;
+  width: min(380px, calc(100% - 32px));
+  max-height: 77%;
+  overflow: auto;
+  border-radius: 14px;
+  padding: 18px;
+  z-index: 3;
+}
+.detailHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.detailHead > div {
+  flex: 1;
+}
+.close {
+  align-self: start;
+  padding: 1px;
+}
+#detail h2 {
+  font-size: 19px;
+}
+.address {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  align-items: start;
+  line-height: 1.6;
+}
+.note {
+  display: block;
+  margin: 9px 0;
+}
+.empty {
+  padding: 12px 3px;
+  color: #73796d;
+}
+.save {
+  margin-top: 8px;
+}
+.save .icon svg {
+  width: 16px;
+}
+body[data-view="directory"] .cover,
+body[data-view="saved"] .cover {
+  display: none;
+}
+@media (min-width: 761px) {
+  body[data-view="directory"] aside {
+    width: min(420px, 42vw);
+  }
+}
+@media (max-width: 760px) {
+  header {
+    height: 51px;
+    padding: 0 15px;
+    gap: 10px;
+  }
+  .brand {
+    font-size: 21px;
+    gap: 6px;
+  }
+  .seal {
+    width: 31px;
+    height: 31px;
+    border-radius: 9px;
+  }
+  .seal svg {
+    width: 23px;
+  }
+  .series {
+    font-size: 11px;
+  }
+  .city {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+  .toolbar {
+    display: grid;
+    padding: 8px 12px;
+    gap: 7px;
+  }
+  .search {
+    width: 100%;
+    padding: 7px 10px;
+  }
+  .filters {
+    gap: 6px;
+  }
+  .filters select {
+    font-size: 12px;
+    padding: 5px 28px 5px 12px;
+  }
+  .filters label:after {
+    top: 1px;
+  }
+  .filters > i {
+    margin-left: 4px;
+  }
+  .mapBadge {
+    top: 10px;
+    left: 10px;
+  }
+  .controls {
+    right: 10px;
+    top: 10px;
+  }
+  aside {
+    display: none;
+  }
+  .mapFrame {
+    width: 100%;
+  }
+  main {
+    position: relative;
+  }
+  body[data-view="directory"] aside,
+  body[data-view="saved"] aside {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    display: flex;
+    z-index: 4;
+  }
+  .cover {
+    height: 130px;
+  }
+  footer {
+    padding: 0 0 env(safe-area-inset-bottom);
+    height: auto;
+    min-height: 55px;
+    justify-content: center;
+  }
+  .footBrand {
+    display: none;
+  }
+  nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  nav button {
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px 18px;
+    font-size: 10px;
+  }
+  .listHead {
+    padding-top: 15px;
+  }
+  .pinLabel {
+    font-size: 9px;
+  }
+  .marker {
+    width: 26px;
+    height: 26px;
+  }
+  .marker svg {
+    width: 14px;
+  }
+  #detail {
+    bottom: 23px;
+    left: 9px;
+    width: calc(100% - 18px);
+  }
+}

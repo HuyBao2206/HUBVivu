@@ -1,0 +1,627 @@
+{
+  "dataset_id": "hub-vivu-hue-zoom1-overview",
+  "crs": "EPSG:4326 (WGS 84)",
+  "coordinate_order": "[longitude, latitude]",
+  "checked_date": "2026-11-22",
+  "viewport_config": {
+    "recommended_desktop_bbox": [
+      107.56,
+      16.446,
+      107.622,
+      16.486
+    ],
+    "recommended_desktop_center": [
+      107.591,
+      16.466
+    ],
+    "recommended_desktop_zoom_512px": 13.4,
+    "recommended_mobile_bbox": [
+      107.562,
+      16.448,
+      107.608,
+      16.484
+    ],
+    "recommended_mobile_center": [
+      107.585,
+      16.466
+    ],
+    "recommended_mobile_zoom_512px": 12.4,
+    "exploration_max_bounds_phase1": [
+      107.51,
+      16.41,
+      107.655,
+      16.525
+    ],
+    "exploration_max_bounds_phase2": [
+      107.49,
+      16.38,
+      107.68,
+      16.57
+    ]
+  },
+  "records": [
+    {
+      "id": "hue-z1-base-song-huong",
+      "name_standard": "Sông Hương",
+      "alt_names": [
+        "Hương Giang",
+        "Perfume River"
+      ],
+      "object_type": "vung_va_tuyen_nen",
+      "address_or_location": "Trục thủy hệ trung tâm chảy theo hướng Tây Nam – Đông Bắc qua TP. Huế (từ Kim Long qua Cầu Trường Tiền đến Cồn Hến/Bao Vinh)",
+      "riverbank": "truc_phan_tach",
+      "display_zoom_tier": "zoom_1 (z11.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "basemap_layer: protomaps:water(kind_detail=river) | openmaptiles:water + waterway(class=river) + water_name/waterway-name",
+      "source_urls": [
+        "https://docs.protomaps.com/basemaps/layers",
+        "https://openmaptiles.org/docs/schema/",
+        "https://baomoi.com/dieu-tuyet-voi-cua-4-dong-song-noi-tieng-xu-hue-c34985523.epi"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "Không cần tọa độ/hình học riêng; dùng trực tiếp lớp nền vector của bản đồ nền.",
+      "usage_rights_note": "Dữ liệu nền OSM (ODbL); bắt buộc ghi công © OpenStreetMap contributors (+ © OpenMapTiles nếu dùng OpenFreeMap)."
+    },
+    {
+      "id": "hue-z1-base-duong-truc",
+      "name_standard": "Mạng đường trục chính trung tâm Huế",
+      "alt_names": [
+        "Lê Lợi",
+        "Hùng Vương",
+        "Trần Hưng Đạo",
+        "Lê Duẩn",
+        "Đường 23/8",
+        "Đinh Tiên Hoàng",
+        "Nguyễn Trãi",
+        "Kim Long",
+        "Chi Lăng",
+        "Bạch Đằng",
+        "Hà Nội",
+        "Bà Triệu",
+        "Nguyễn Huệ",
+        "Hai Bà Trưng",
+        "Phan Đình Phùng",
+        "Điện Biên Phủ",
+        "Tố Hữu",
+        "Võ Nguyên Giáp",
+        "Bùi Thị Xuân"
+      ],
+      "object_type": "tuyen_nen",
+      "address_or_location": "Các tuyến trục định hướng Bờ Bắc, Bờ Nam và trục kết nối KĐT mới An Vân Dương / Kim Long",
+      "riverbank": "hai_bo",
+      "display_zoom_tier": "zoom_1 (trunk/primary/secondary/tertiary từ z12.5+; minor/residential từ z14.5+)",
+      "coordinates": null,
+      "geometry_ref": "basemap_layer: protomaps:roads | openmaptiles:transportation + transportation_name",
+      "source_urls": [
+        "https://docs.protomaps.com/basemaps/layers",
+        "https://openmaptiles.org/docs/schema/",
+        "https://vn.geoview.info/hung_vuong,11384573863w",
+        "https://vn.geoview.info/vo_nguyen_giap,452539970w",
+        "https://vn.geoview.info/nguyen_hue,11165926419w"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "Không cần hình học riêng; lưu ý cấu hình Style JSON bật cả class=tertiary từ z12.5 để hiển thị Võ Nguyên Giáp và Nguyễn Huệ.",
+      "usage_rights_note": "Dữ liệu nền OSM (ODbL); bắt buộc ghi công © OpenStreetMap contributors (+ © OpenMapTiles nếu dùng OpenFreeMap)."
+    },
+    {
+      "id": "hue-z1-lbl-bo-bac",
+      "name_standard": "Bờ Bắc",
+      "alt_names": [
+        "Tả ngạn sông Hương",
+        "Khu nội thành Phú Xuân"
+      ],
+      "object_type": "diem_nhan_de_xuat",
+      "address_or_location": "Nhãn tổng quan phía Bắc trục chính sông Hương (đặt tại khoảng thoáng phía Bắc Kinh Thành, tránh đè Đại Nội và Chợ Đông Ba)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1 (z11.5-14.2)",
+      "coordinates": [
+        107.581,
+        16.4805
+      ],
+      "geometry_ref": "geojson:hue-z1-lbl-bo-bac (Point đề xuất)",
+      "source_urls": [
+        "https://thongtinphuongxa.com/phuong-phu-xuan-hue/",
+        "https://tixgo.vn/blog/hue/ban-do-dai-noi-hue"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_de_xuat",
+      "missing_fields_note": "Điểm đặt nhãn là tọa độ biên tập đề xuất, không phải ranh giới hành chính; có thể tinh chỉnh thẩm mỹ khi ghép UI.",
+      "usage_rights_note": "Dữ liệu biên tập độc lập của HUB Vi Vu; toàn quyền sử dụng."
+    },
+    {
+      "id": "hue-z1-lbl-bo-nam",
+      "name_standard": "Bờ Nam",
+      "alt_names": [
+        "Hữu ngạn sông Hương",
+        "Khu trung tâm Thuận Hóa"
+      ],
+      "object_type": "diem_nhan_de_xuat",
+      "address_or_location": "Nhãn tổng quan phía Nam trục chính sông Hương (đặt tại vùng thoáng phía Nam trục Phan Đình Phùng, tránh đè Phố Tây và Vincom)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z11.5-14.2)",
+      "coordinates": [
+        107.59,
+        16.4535
+      ],
+      "geometry_ref": "geojson:hue-z1-lbl-bo-nam (Point đề xuất)",
+      "source_urls": [
+        "https://thuvienphapluat.vn/phap-luat/quan-thuan-hoa-cu-bao-gom-7-phuong-moi-nao-tai-thanh-pho-hue-sau-sap-xep-de-an-sap-xep-gom-nhung-gi-484712-224458.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_de_xuat",
+      "missing_fields_note": "Điểm đặt nhãn là tọa độ biên tập đề xuất, không phải ranh giới hành chính; có thể tinh chỉnh thẩm mỹ khi ghép UI.",
+      "usage_rights_note": "Dữ liệu biên tập độc lập của HUB Vi Vu; toàn quyền sử dụng."
+    },
+    {
+      "id": "hue-z1-lm-dai-noi",
+      "name_standard": "Đại Nội Huế",
+      "alt_names": [
+        "Hoàng thành Huế",
+        "Kinh thành Huế"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Đường 23/8 (Cổng Ngọ Môn), Phường Phú Xuân, Thành phố Huế (cũ: Phường Thuận Hòa)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1 (z11.5-18.0)",
+      "coordinates": [
+        107.57778,
+        16.46972
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-dai-noi (Point đại diện; vùng 159,71 ha đã có trên basemap)",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Imperial_City_of_Hu%E1%BA%BF",
+        "https://vinpearl.com/vi/dai-noi-hue-huong-dan-tham-quan-tim-ve-dau-an-lich-su-co-do",
+        "https://thongtinphuongxa.com/phuong-phu-xuan-hue/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Di sản công cộng; tọa độ đối chiếu Wikipedia (CC BY-SA 4.0)."
+    },
+    {
+      "id": "hue-z1-lm-chua-thien-mu",
+      "name_standard": "Chùa Thiên Mụ",
+      "alt_names": [
+        "Chùa Linh Mụ",
+        "Thiên Mụ Tự"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Đồi Hà Khê, đường Nguyễn Phúc Nguyên, Phường Kim Long, Thành phố Huế (cũ: Phường Hương Long)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1_ngoai_vi (z11.0-18.0; nằm ngoài khung mở đầu PA2, hiện khi kéo về phía Tây)",
+      "coordinates": [
+        107.544812,
+        16.453599
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-chua-thien-mu (Point)",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Thi%C3%AAn_M%E1%BB%A5_Temple",
+        "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Thi%C3%AAn_M%E1%BB%A5_Pagoda_Hue,_Vietnam_(12160353236).jpg",
+        "https://thuvienphapluat.vn/phap-luat/quan-phu-xuan-cu-bao-gom-4-phuong-moi-nao-tai-thanh-pho-hue-sau-sap-xep-trinh-tu-thu-tuc-xay-dung-n-222031-224457.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "Đã loại bỏ tọa độ sai trên Wikipedia tiếng Việt (kinh độ 107.580 bị lệch 3,75 km).",
+      "usage_rights_note": "Di tích công cộng; tọa độ đối chiếu EN Wikipedia & Wikimedia Commons (CC BY-SA)."
+    },
+    {
+      "id": "hue-z1-lm-cho-dong-ba",
+      "name_standard": "Chợ Đông Ba",
+      "alt_names": [
+        "Dong Ba Market"
+      ],
+      "object_type": "diem_khu_am_thuc_cho",
+      "address_or_location": "Số 2 Trần Hưng Đạo, Phường Phú Xuân, Thành phố Huế (cũ: Phường Phú Hòa / Đông Ba)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1 (z12.0-18.0)",
+      "coordinates": [
+        107.588501,
+        16.472622
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-cho-dong-ba (Point)",
+      "source_urls": [
+        "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba",
+        "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_Ba_Market",
+        "https://dandien.hue.gov.vn/%C4%90an-%C4%90ien-%C4%90iem-%C4%91en-du-lich/Thong-tin-du-khach/Thong-tin-can-biet/tb/Cho-Dong-Ba-Hue-416086"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Thông tin công cộng từ hue.gov.vn; tọa độ đối chiếu Wikipedia/Wikimedia."
+    },
+    {
+      "id": "hue-z1-lm-cau-truong-tien",
+      "name_standard": "Cầu Trường Tiền",
+      "alt_names": [
+        "Cầu Tràng Tiền"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Bắc qua sông Hương, nối đường Trần Hưng Đạo (Phường Phú Xuân) và đường Hùng Vương – Lê Lợi (Phường Thuận Hóa), TP. Huế",
+      "riverbank": "noi_hai_bo",
+      "display_zoom_tier": "zoom_1 (z12.0-18.0)",
+      "coordinates": [
+        107.588611,
+        16.468889
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-cau-truong-tien (Point; hình học cầu dùng lớp basemap)",
+      "source_urls": [
+        "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n",
+        "https://en.wikipedia.org/wiki/Truong_Tien_Bridge"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Công trình công cộng; tọa độ Wikipedia; hình học cầu dùng lớp nền OSM (ODbL)."
+    },
+    {
+      "id": "hue-z1-lm-vincom-plaza",
+      "name_standard": "Vincom Plaza Huế",
+      "alt_names": [
+        "TTTM Vincom Huế",
+        "Vincom Hùng Vương"
+      ],
+      "object_type": "diem_tttm_am_thuc",
+      "address_or_location": "Số 50A Hùng Vương (giao lộ Ngã 6 Hùng Vương), Phường Thuận Hóa, Thành phố Huế (cũ: Phường Phú Nhuận)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": [
+        107.59426,
+        16.46296
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-vincom-plaza (Point; đối chiếu OSM way 749331141)",
+      "source_urls": [
+        "https://vincom.com.vn/vincom-plaza-hue",
+        "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Kham-pha-Hue/tb/Trung-tam-thuong-mai-Vincom-Plaza-418221",
+        "https://mapcarta.com/W749331141"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "Khuyến nghị thay bằng GPS tự đo nếu muốn tách tuyệt đối 100% khỏi ODbL ở giai đoạn thương mại mở rộng.",
+      "usage_rights_note": "Địa chỉ từ vincom.com.vn và hue.gov.vn. Tọa độ qua Mapcarta/OSM (ODbL, dưới ngưỡng 100 đối tượng theo OSMF Substantial Guideline). Không dùng logo Vincom."
+    },
+    {
+      "id": "hue-z1-lm-con-hen",
+      "name_standard": "Cồn Hến",
+      "alt_names": [
+        "Đảo Cồn Hến",
+        "Khu ẩm thực cơm hến Cồn Hến"
+      ],
+      "object_type": "diem_khu_am_thuc_tu_nhien",
+      "address_or_location": "Cồn Hến (trục đường Ưng Bình), Phường Vỹ Dạ, Thành phố Huế — đảo bồi diện tích 24,6 ha nằm giữa dòng sông Hương",
+      "riverbank": "giua_song",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": [
+        107.593258,
+        16.474267
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-con-hen (Point đặt nhãn; hình dạng cồn đã có trên basemap)",
+      "source_urls": [
+        "https://baohaiquanvietnam.vn/tin-tuc/quyen-ru-con-hen",
+        "https://commons.wikimedia.org/wiki/File:S%C3%B4ng_H%C6%B0%C6%A1ng_-_C%E1%BA%A7u_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n_-_C%E1%BB%93n_H%E1%BA%BFn_-_panoramio.jpg"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "Tọa độ từ Wikimedia Commons trên địa bàn Cồn Hến; có thể tinh chỉnh nhẹ vị trí nhãn vào giữa đảo khi ghép UI.",
+      "usage_rights_note": "Địa danh tự nhiên & khu ẩm thực mở; tọa độ Wikimedia Commons (CC BY-SA)."
+    },
+    {
+      "id": "hue-z1-lm-ga-hue",
+      "name_standard": "Ga Huế",
+      "alt_names": [
+        "Hue Railway Station"
+      ],
+      "object_type": "diem_dinh_vi_giao_thong",
+      "address_or_location": "Số 1 Bùi Thị Xuân, Phường Thuận Hóa, Thành phố Huế (cũ: Phường Phường Đúc)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": [
+        107.57875,
+        16.456764
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-ga-hue (Point)",
+      "source_urls": [
+        "https://vi.wikipedia.org/wiki/Ga_Hu%E1%BA%BF",
+        "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Hue_Vietnam_Hue-Railway-Station-01.jpg"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Công trình giao thông công cộng; tọa độ Wikipedia/Wikimedia."
+    },
+    {
+      "id": "hue-z1-lm-quoc-hoc",
+      "name_standard": "Trường THPT chuyên Quốc Học – Huế",
+      "alt_names": [
+        "Trường Quốc Học Huế"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Đường Lê Lợi (ven Bờ Nam sông Hương), Phường Thuận Hóa, Thành phố Huế (cũ: Phường Vĩnh Ninh)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": [
+        107.583789,
+        16.461481
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-quoc-hoc (Point)",
+      "source_urls": [
+        "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:Quoc_Hoc_main_building_(side)_(7165969089).jpg",
+        "https://mapcarta.com/fr/W695775622"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Di tích kiến trúc công cộng; tọa độ Wikimedia Commons."
+    },
+    {
+      "id": "hue-z1-lm-cung-an-dinh",
+      "name_standard": "Cung An Định",
+      "alt_names": [
+        "An Dinh Palace"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Số 97 Phan Đình Phùng (ven sông An Cựu), Phường Thuận Hóa, Thành phố Huế (cũ: Phường Phú Nhuận)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": [
+        107.598275,
+        16.456761
+      ],
+      "geometry_ref": "geojson:hue-z1-lm-cung-an-dinh (Point)",
+      "source_urls": [
+        "https://baomoi.com/dieu-tuyet-voi-cua-4-dong-song-noi-tieng-xu-hue-c34985523.epi",
+        "https://vi.wikipedia.org/wiki/T%E1%BA%ADp_tin:An_Dinh_Palace_-_Cung_An_%C4%90%E1%BB%8Bnh_(2024)_-_grand_hall_-_img_02.jpg",
+        "https://mapcarta.com/es/W1172897446"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_ban_giao",
+      "missing_fields_note": "",
+      "usage_rights_note": "Di tích lịch sử công cộng; tọa độ ảnh điện Khải Tường trên Wikimedia Commons."
+    },
+    {
+      "id": "hue-z1-lm-aeon-mall",
+      "name_standard": "AEON MALL Huế",
+      "alt_names": [
+        "TTTM AEON MALL Huế",
+        "Aeon Huế"
+      ],
+      "object_type": "diem_tttm_am_thuc",
+      "address_or_location": "Số 8 Võ Nguyên Giáp, Khu A – KĐT mới An Vân Dương, Phường An Cựu, Thành phố Huế (cũ: Phường An Đông)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z12.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tam_tham_chieu_anh_su_kien_wikimedia: [107.615017, 16.454078] (chưa chốt tâm tòa nhà chính thức)",
+      "source_urls": [
+        "https://aeonmall-vietnam.com/vi/aeon-mall-hue/",
+        "https://thongkehue.nso.gov.vn/tin-tuc/21",
+        "https://commons.wikimedia.org/wiki/File:Amee_2024.jpg"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "can_xac_minh_toa_do",
+      "missing_fields_note": "Thiếu tọa độ tâm tòa nhà/cổng chính xác thực bằng GPS độc lập (tọa độ [107.615017, 16.454078] chỉ lấy từ EXIF ảnh sự kiện Wikimedia tại khuôn viên AEON MALL Huế).",
+      "usage_rights_note": "Địa chỉ từ trang chính thức aeonmall-vietnam.com. Không sử dụng logo AEON MALL khi chưa có văn bản cho phép."
+    },
+    {
+      "id": "hue-z1-lm-go-hue",
+      "name_standard": "GO! Huế",
+      "alt_names": [
+        "Big C Huế",
+        "Phong Phú Plaza"
+      ],
+      "object_type": "diem_tttm_am_thuc",
+      "address_or_location": "Số 174 Bà Triệu (KQH Bà Triệu – Hùng Vương; một số nguồn/gian hàng cũ ghi 181 Bà Triệu), Thành phố Huế (web GO! ghi cũ: P. Phú Hội → P. Thuận Hóa mới; một số nguồn cũ ghi P. Xuân Phú → P. Vỹ Dạ mới, cần xác nhận ranh giới)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "source_urls": [
+        "https://sieuthi-go.vn/about-us/store/go-hue-17.html",
+        "https://www.thegioididong.com/tin-tuc/sieu-thi-the-gioi-di-dong-big-c--737041",
+        "https://vneconomy.vn/big-c-sap-khai-truong-dai-sieu-thi-tai-hue.htm"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_toa_do_va_xung_dot_dia_chi",
+      "missing_fields_note": "Thiếu tọa độ WGS 84 xác thực từ nguồn mở độc lập; cần chốt số nhà hiển thị (174 vs 181 Bà Triệu) và xác nhận phường mới (Thuận Hóa hay Vỹ Dạ).",
+      "usage_rights_note": "Tên và địa chỉ từ sieuthi-go.vn. Không sử dụng logo GO! khi chưa xin phép."
+    },
+    {
+      "id": "hue-z1-lm-cau-nguyen-hoang",
+      "name_standard": "Cầu Nguyễn Hoàng",
+      "alt_names": [
+        "Nguyen Hoang Bridge",
+        "Cầu vượt sông Hương mới"
+      ],
+      "object_type": "diem_bieu_tuong",
+      "address_or_location": "Bắc qua sông Hương, nối đường Nguyễn Hoàng (Phường Kim Long) với đường Bùi Thị Xuân (Phường Thuận Hóa, cũ: P. Phường Đúc), TP. Huế (thông xe kỹ thuật 26/3/2025)",
+      "riverbank": "noi_hai_bo",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "basemap_layer: OSM ways 11369680217w & 11369680218w (highway=secondary, name=Cầu Nguyễn Hoàng)",
+      "source_urls": [
+        "https://hue.gov.vn/Trang-chu/Tin-tuc-su-kien/tb/Chinh-thuc-thong-xe-ky-thuat-cau-Nguyen-Hoang-bac-qua-song-Huong-185127",
+        "https://vnexpress.net/thong-xe-cau-nguyen-hoang-bac-qua-song-huong-4865990.html",
+        "https://vn.geoview.info/cau_nguyen_hoang,11369680217w"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "san_sang_qua_basemap_thieu_diem_marker",
+      "missing_fields_note": "Hình học và nhãn tên cầu đã có sẵn trên bản đồ nền OSM; chỉ thiếu tọa độ điểm trung tâm cầu nếu muốn gắn thêm thẻ/marker tương tác riêng.",
+      "usage_rights_note": "Công trình công cộng; hiển thị qua lớp nền OSM (ODbL) kèm ghi công."
+    },
+    {
+      "id": "hue-z1-zone-pho-tay",
+      "name_standard": "Phố đi bộ khu Phố Tây",
+      "alt_names": [
+        "Phố Tây Huế",
+        "Phố đi bộ Chu Văn An – Phạm Ngũ Lão – Võ Thị Sáu"
+      ],
+      "object_type": "vung_hoac_cum_tuyen_de_xuat",
+      "address_or_location": "Cụm 3 tuyến đường Chu Văn An, Phạm Ngũ Lão, Võ Thị Sáu (dài >1 km), Phường Thuận Hóa, Thành phố Huế (cũ: P. Phú Hội); hoạt động T6–CN 18h–24h/2h",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z12.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tham_chieu_3_duong_basemap: Chu Văn An, Phạm Ngũ Lão, Võ Thị Sáu (chưa số hóa Polygon/Point đề xuất)",
+      "source_urls": [
+        "https://hue.gov.vn/Trang-chu/Tin-tuc-su-kien/tb/Chinh-trang-cac-tuyen-pho-di-bo-khu-pho-Tay-khu-vuc-doi-dien-ga-Hue-va-cong-vien-ven-song-An-Cuu-116482",
+        "https://suckhoedoisong.vn/he-lo-phuong-an-dau-tu-mai-che-tai-pho-di-bo-khu-pho-tay-o-hue-16926102521075926.htm",
+        "https://thanhnien.vn/pho-tay-hue-ve-dem-co-gi-vui-ma-tay-ta-keo-nhau-den-nuom-nuop-185261012134259264.htm"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_hinh_hoc_so_hoa",
+      "missing_fields_note": "Thiếu tọa độ điểm đặt nhãn tâm khu và tệp GeoJSON MultiLineString/Polygon đề xuất bao 3 tuyến đường.",
+      "usage_rights_note": "Không gian công cộng xác minh từ hue.gov.vn & báo chí; khi số hóa không được đồ họa từ ảnh vệ tinh Google."
+    },
+    {
+      "id": "hue-z1-line-nguyen-dinh-chieu",
+      "name_standard": "Phố đi bộ Nguyễn Đình Chiểu – Cầu gỗ Lim",
+      "alt_names": [
+        "Phố đi bộ Nguyễn Đình Chiểu",
+        "Cầu gỗ Lim"
+      ],
+      "object_type": "tuyen_de_xuat",
+      "address_or_location": "Đường Nguyễn Đình Chiểu và Cầu gỗ Lim ven Bờ Nam sông Hương, cạnh Cầu Trường Tiền và khu nhà 23–25 Lê Lợi (dài ~350–380 m), Phường Thuận Hóa, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tham_chieu_tuyen_basemap: đường Nguyễn Đình Chiểu ven sông Hương (chưa số hóa LineString/Point)",
+      "source_urls": [
+        "https://ancuu.hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/Chuong-trinh-Ngay-Van-hoa-Viet-Nam-Han-Quoc-tai-Hue-nam-2025-944875",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/pho-di-bo-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_hinh_hoc_so_hoa",
+      "missing_fields_note": "Thiếu tọa độ điểm đặt nhãn và mảng đỉnh LineString dọc đường Nguyễn Đình Chiểu – Cầu gỗ Lim.",
+      "usage_rights_note": "Không gian công cộng xác minh từ hue.gov.vn."
+    },
+    {
+      "id": "hue-z1-line-hai-ba-trung",
+      "name_standard": "Phố đi bộ Hai Bà Trưng",
+      "alt_names": [
+        "Tuyến phố đi bộ Hai Bà Trưng"
+      ],
+      "object_type": "tuyen_de_xuat",
+      "address_or_location": "Đường Hai Bà Trưng, từ nút giao đường Nguyễn Huệ đến nút giao đường Nguyễn Văn Cừ (dài ~850 m), Phường Thuận Hóa, TP. Huế (cũ: P. Vĩnh Ninh); hoạt động 18h–24h T6–CN",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tham_chieu_tuyen_basemap: đường Hai Bà Trưng đoạn Nguyễn Huệ – Nguyễn Văn Cừ (chưa số hóa LineString/Point)",
+      "source_urls": [
+        "https://laodong.vn/photo/dien-mao-pho-di-bo-tien-ti-o-hue-1170097.ldo",
+        "https://vnexpress.net/pho-di-bo-thu-ba-cua-tp-hue-truoc-ngay-hoat-dong-4585364.html",
+        "https://baobacninhtv.vn/festival-hue-2026-le-hoi-mua-thu-dam-da-ban-sac-co-do.bbg"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_hinh_hoc_so_hoa",
+      "missing_fields_note": "Thiếu tọa độ 2 nút giao đầu–cuối (Nguyễn Huệ, Nguyễn Văn Cừ) để dựng LineString và điểm đặt nhãn.",
+      "usage_rights_note": "Không gian công cộng xác minh từ báo chí chính thống; thay thế cho tên nhầm 'Phố đi bộ Nguyễn Huệ'."
+    },
+    {
+      "id": "hue-z1-zone-pho-dem-hoang-thanh",
+      "name_standard": "Phố đêm Hoàng Thành",
+      "alt_names": [
+        "Phố đi bộ Hoàng Thành Huế"
+      ],
+      "object_type": "vung_hoac_cum_tuyen_de_xuat",
+      "address_or_location": "Không gian ngoài Hoàng Thành trên 4 trục đường 23/8, Lê Huân, Đặng Thái Thân, Đoàn Thị Điểm (GĐ1 quanh Cửa Thể Nhơn – 23/8 – Lê Huân), Phường Phú Xuân, TP. Huế",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tham_chieu_4_truc_basemap: 23/8, Lê Huân, Đặng Thái Thân, Đoàn Thị Điểm",
+      "source_urls": [
+        "https://huetourism.gov.vn/pho-dem-hoang-thanh-hue/?pid=MjI1MTN8Y3NkbGRs0",
+        "https://hue.gov.vn/Trang-chu/Tin-so-nganh/tb/Pho-dem-Hoang-Thanh-Hue-chinh-thuc-khai-truong-vao-ngay-22-4-2022-277529",
+        "https://tuongtac.hue.gov.vn/phan-anh/kien-nghi-bo-pho-dem-hoang-thanh-a141426.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_hinh_hoc_so_hoa",
+      "missing_fields_note": "Thiếu số hóa tuyến/điểm đặt nhãn và cần xác minh lại phạm vi hoạt động thực tế cuối năm 2026.",
+      "usage_rights_note": "Thông tin công cộng từ hue.gov.vn & huetourism.gov.vn."
+    },
+    {
+      "id": "hue-z1-line-am-thuc-nguyen-van-huyen",
+      "name_standard": "Phố ẩm thực đêm Nguyễn Văn Huyên",
+      "alt_names": [
+        "Khu ẩm thực đêm Nguyễn Văn Huyên",
+        "Phố ẩm thực Trương Định (đã di dời tháng 7/2026)"
+      ],
+      "object_type": "tuyen_de_xuat",
+      "address_or_location": "Đường Nguyễn Văn Huyên, Phường Thuận Hóa, Thành phố Huế (cũ: P. Phú Hội; tiếp nhận các hộ kinh doanh di dời từ Phố ẩm thực Trương Định cơ bản hoàn thành ngày 14/7/2026)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1_hoac_dau_zoom_2 (z13.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "tham_chieu_tuyen_basemap: đường Nguyễn Văn Huyên",
+      "source_urls": [
+        "https://huengaynay.vn/chinh-tri-xa-hoi/pho-dem-so-tieng-on-169373.html",
+        "https://huengaynay.vn/kinh-te/hoan-tat-di-doi-pho-am-thuc-truong-dinh-hinh-thanh-khong-gian-kinh-doanh-moi-167690.html",
+        "https://vietnamtourism.gov.vn/post/50818"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_toa_do_va_pham_vi_doan_tuyen",
+      "missing_fields_note": "Thiếu khảo sát thực địa đoạn đường cụ thể nơi các hộ di dời tập trung và tọa độ điểm/tuyến WGS 84.",
+      "usage_rights_note": "Thông tin công cộng từ báo Huế Ngày Nay & Cục Du lịch Quốc gia."
+    },
+    {
+      "id": "hue-z1-lm-cho-tay-loc",
+      "name_standard": "Chợ Tây Lộc",
+      "alt_names": [
+        "Chợ đồ si Tây Lộc"
+      ],
+      "object_type": "diem_khu_am_thuc_cho",
+      "address_or_location": "Số 209 Nguyễn Trãi, Phường Phú Xuân, Thành phố Huế (cũ: Phường Tây Lộc)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "source_urls": [
+        "https://vinpearl.com/vi/cho-tay-loc-hue-kinh-nghiem-mua-sam-vui-choi-tu-a-z",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/cho-o-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_toa_do",
+      "missing_fields_note": "Thiếu tọa độ WGS 84 xác thực từ khảo sát GPS hoặc nguồn mở kiểm chứng.",
+      "usage_rights_note": "Chợ công cộng; cần thu thập tọa độ độc lập."
+    },
+    {
+      "id": "hue-z1-lm-cho-an-cuu",
+      "name_standard": "Chợ An Cựu",
+      "alt_names": [
+        "Chợ Đường Ngang (tên cũ)"
+      ],
+      "object_type": "diem_khu_am_thuc_cho",
+      "address_or_location": "Số 89 Hùng Vương (bờ sông An Cựu, góc Phan Đình Phùng – Hùng Vương), Phường An Cựu, Thành phố Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_1 (z13.0-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "source_urls": [
+        "https://thuanhoa.hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/Cho-An-Cuu-295164"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "thieu_toa_do",
+      "missing_fields_note": "Thiếu tọa độ WGS 84 xác thực từ khảo sát GPS hoặc nguồn mở kiểm chứng.",
+      "usage_rights_note": "Chợ công cộng; địa chỉ từ hue.gov.vn; cần thu thập tọa độ độc lập."
+    },
+    {
+      "id": "hue-z1-rej-pho-di-bo-nguyen-hue",
+      "name_standard": "Phố đi bộ Nguyễn Huệ [LOẠI BỎ — KHÔNG TỒN TẠI TẠI HUẾ]",
+      "alt_names": [
+        "Đường Nguyễn Huệ (đường giao thông thường tại Huế)"
+      ],
+      "object_type": "khong_dua_len_ban_do",
+      "address_or_location": "Không tồn tại phố đi bộ Nguyễn Huệ tại TP. Huế; đây là sự nhầm lẫn từ TP.HCM (hoặc Lao Bảo) và từ Phố đi bộ Hai Bà Trưng (điểm đầu cắt đường Nguyễn Huệ) / Phố đi bộ Nguyễn Đình Chiểu",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "khong_hien_thi",
+      "coordinates": null,
+      "geometry_ref": "",
+      "source_urls": [
+        "https://thanhnien.vn/goc-ky-hoa-pho-di-bo-nguyen-hue-185250531212857004.htm",
+        "https://huongrivercruises.com/pho-di-bo-hai-ba-trung-hue/",
+        "https://vnexpress.net/pho-di-bo-thu-ba-cua-tp-hue-truoc-ngay-hoat-dong-4585364.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "loai_bo_sai_dia_danh",
+      "missing_fields_note": "Bản ghi lưu vết kiểm chứng để ngăn hiển thị nhầm.",
+      "usage_rights_note": "Không áp dụng."
+    }
+  ]
+}

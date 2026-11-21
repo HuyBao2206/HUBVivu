@@ -1,0 +1,795 @@
+{
+  "dataset_id": "hub-vivu-hue-zoom2-curated-branches",
+  "crs": "EPSG:4326 (WGS 84)",
+  "coordinate_order": "[longitude, latitude]",
+  "checked_date": "2026-11-22",
+  "category_l1_values": [
+    "ca_phe",
+    "tra_sua",
+    "quan_an"
+  ],
+  "logo_policy": "Tất cả logo_url để null cho tới khi có văn bản cấp phép nhãn hiệu từ chủ sở hữu thương hiệu.",
+  "records": [
+    {
+      "id": "hue-z2-cf-starbucks-song-huong",
+      "name_standard": "Starbucks Sông Hương",
+      "alt_names": [
+        "Starbucks Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "Công viên 3/2, đường Lê Lợi (Tầng trệt Nhà hàng nổi Sông Hương, số 32 Lê Lợi), Phường Thuận Hóa, TP. Huế (web hãng ghi cũ: P. Phú Hội)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Thương hiệu cà phê quốc tế đầu bảng, vị trí độc bản trên mặt nước ven Bờ Nam sông Hương gần Cầu Trường Tiền.",
+      "source_urls": [
+        "https://www.starbucks.vn/store-locator/",
+        "https://znews.vn/hue-khong-con-la-ngoai-le-cua-nganh-f-b-post1673655.html",
+        "https://huetripo.hue.gov.vn/co-so-an-uong"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 đo thực địa độc lập.",
+      "usage_rights_note": "Tên & địa chỉ từ starbucks.vn. Cấm dùng logo Starbucks theo Điều khoản sử dụng (starbucks.vn)."
+    },
+    {
+      "id": "hue-z2-cf-cong-ben-nghe",
+      "name_standard": "Cộng Cà Phê – 22 Bến Nghé",
+      "alt_names": [
+        "Cộng Cà Phê Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "Số 22 Bến Nghé, Phường Thuận Hóa, TP. Huế (web hãng ghi cũ: P. Phú Hội)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi cà phê Việt Nam mang bản sắc mạnh, điểm hẹn trung tâm trên trục cà phê Bến Nghé sát Phố Tây.",
+      "source_urls": [
+        "https://sinhnhat.congcaphe.com/",
+        "https://congcaphe.com/post/tet/3131/thong-bao-lich-mo-cua-cong-ca-phe-tet-nham-dan-2022",
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/cong-ca-phe-729214"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 đo thực địa độc lập.",
+      "usage_rights_note": "Địa chỉ từ congcaphe.com & huetripo.hue.gov.vn. Không dùng logo Cộng Cà Phê (bảo lưu SHTT tại congcaphe.com/page/dieu-khoan-su-dung)."
+    },
+    {
+      "id": "hue-z2-cf-highlands-vincom",
+      "name_standard": "Highlands Coffee – Vincom Plaza Huế",
+      "alt_names": [
+        "Highlands Coffee 50A Hùng Vương"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "ca_phe",
+      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
+      "coordinates": [
+        107.59426,
+        16.46296
+      ],
+      "geometry_ref": "parent_building: hue-z1-lm-vincom-plaza",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh đại diện trung tâm Ngã 6 Hùng Vương của chuỗi cà phê có độ phủ lớn nhất Huế (13 cửa hàng tính đến 7/2026).",
+      "source_urls": [
+        "https://vincom.com.vn/vincom-plaza-hue/gioi-thieu",
+        "https://ae.trip.com/moments/detail/hue-667-134445859?locale=en-AE"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "logo_url": null,
+      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); khuyến nghị thay bằng GPS tự đo và hiển thị dạng danh sách trong cụm TTTM.",
+      "usage_rights_note": "Xác nhận có mặt trên trang chính thức vincom.com.vn và nguồn du lịch 8/2025. Không dùng logo Highlands Coffee (bản quyền tại highlandscoffee.com.vn)."
+    },
+    {
+      "id": "hue-z2-cf-highlands-aeon",
+      "name_standard": "Highlands Coffee – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "ca_phe",
+      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh đại diện khu đô thị mới An Vân Dương trong tổ hợp thương mại lớn nhất Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/highlands-coffee"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế (hue-z1-lm-aeon-mall).",
+      "usage_rights_note": "Xác nhận chính thức trên hue.aeonmall-vietnam.com. Không dùng logo Highlands Coffee."
+    },
+    {
+      "id": "hue-z2-cf-highlands-27-le-huan",
+      "name_standard": "Highlands Coffee – 27 Lê Huân",
+      "alt_names": [
+        "Highlands Coffee Lê Huân"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "Số 27 Lê Huân, Phường Phú Xuân, TP. Huế",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh đại diện Bờ Bắc ngay sát Hoàng Thành và tuyến Phố đêm Hoàng Thành.",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/highlands-coffee-27-le-huan-119916",
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/venus-icafe-475649"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo; khuyến nghị kiểm tra chéo thêm store locator của highlandscoffee.com.vn.",
+      "usage_rights_note": "Nguồn cổng du lịch chính thức huetripo.hue.gov.vn. Không dùng logo Highlands Coffee."
+    },
+    {
+      "id": "hue-z2-cf-trung-nguyen-27-duy-tan",
+      "name_standard": "Trung Nguyên E-Coffee – 27 Duy Tân",
+      "alt_names": [
+        "Trung Nguyên E-Coffee An Cựu"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "Số 27 Duy Tân, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "chua_xac_minh_thuc_dia_2026",
+      "selection_reason": "Đại diện chuỗi cà phê nhượng quyền Việt Nam lớn tại trục dân cư – sinh viên An Cựu (cùng cơ sở Royal Park An Vân Dương).",
+      "source_urls": [
+        "https://trungnguyenecoffee.com/store-ecoffee/",
+        "https://trungnguyenlegend.com/store-finder/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 và cần gọi điện/khảo sát thực địa xác nhận còn hoạt động năm 2026.",
+      "usage_rights_note": "Địa chỉ từ trang chính thức trungnguyenecoffee.com. Không dùng logo Trung Nguyên."
+    },
+    {
+      "id": "hue-z2-cf-ca-phe-muoi-142-dtt",
+      "name_standard": "Cà Phê Muối – 142 Đặng Thái Thân",
+      "alt_names": [
+        "Cà phê Muối gốc Huế (Cơ sở 2)",
+        "Ghi chú Cơ sở 1: 10 Nguyễn Lương Bằng (Bờ Nam)"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "Số 142 Đặng Thái Thân, Phường Phú Xuân, TP. Huế",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Thương hiệu bản địa gắn với nguồn gốc thức uống Cà phê muối Huế; cơ sở 2 nằm ngay trong Kinh Thành (Bờ Bắc).",
+      "source_urls": [
+        "https://khamphahue.com.vn/Du-lich/Chi-tiet/tid/Top-05-quan-ca-phe-muoi-ngon-o-Hue.html/pid/15312/cid/598",
+        "https://vietnamnet.vn/cam-150-000-dong-kham-pha-am-thuc-hue-thuong-thuc-no-ne-5-7-mon-ngon-2503486.html",
+        "https://ngoisao.vn/theo-dong-su-kien/kien-thuc/ai-la-nguoi-dau-tien-sang-lap-ra-ca-phe-muoi-d463124.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo; quán không có website chính thức nên đối chiếu qua cổng khamphahue.com.vn & báo chí 2025–2026.",
+      "usage_rights_note": "Thông tin địa điểm công cộng từ báo chí & cổng du lịch Huế."
+    },
+    {
+      "id": "hue-z2-cf-katinat-le-loi",
+      "name_standard": "Katinat Huế (Lê Lợi) [TẠM HOÃN XÁC MINH]",
+      "alt_names": [
+        "Katinat Saigon Kafe Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "ca_phe",
+      "address_or_location": "XUNG ĐỘT: Báo chí & tuongtac.hue.gov.vn ghi số 5 Lê Lợi (Huế Times Square), Phường Thuận Hóa; trang review ghi 112 Lê Lợi",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "tam_hoan_khong_hien_thi",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "can_xac_minh_sau_cuong_che_08_2026",
+      "selection_reason": "Chuỗi cà phê – trà đang mở rộng mạnh tại Huế, nhưng tạm hoãn do rủi ro cưỡng chế tháo dỡ hạng mục xây sai phép 236 m² tại 5 Lê Lợi tháng 8/2026.",
+      "source_urls": [
+        "https://dantri.com.vn/thoi-su/quang-truong-thoi-dai-ben-song-huong-se-bi-cuong-che-cac-hang-muc-sai-pham-20260805151431174.htm",
+        "https://thanhnien.vn/se-thao-do-quan-ca-phe-va-cong-trinh-sai-phep-tai-du-an-hue-times-square-185260806105446155.htm",
+        "https://tuongtac.hue.gov.vn/dothixanh?pa=213695",
+        "https://cautruongtien.vn/katinat-cafe-hue/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "tam_hoan_xung_dot_va_cuong_che",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu xác nhận từ kênh chính thức Katinat và khảo sát thực địa cuối 2026 xem cơ sở 5 Lê Lợi đã đóng/di dời hay còn địa chỉ 112 Lê Lợi; thiếu tọa độ GPS.",
+      "usage_rights_note": "Thông tin báo chí; không đưa lên bản đồ công khai trước khi xác minh thực địa; không dùng logo Katinat."
+    },
+    {
+      "id": "hue-z2-ts-phe-la-30-le-loi",
+      "name_standard": "Phê La – 30 Lê Lợi",
+      "alt_names": [
+        "Phê La Huế",
+        "Phê La Specialty Tea & Coffee Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "tra_sua",
+      "address_or_location": "Số 30 Lê Lợi, Phường Thuận Hóa, TP. Huế (đối diện Cầu Trường Tiền, cạnh KS Sài Gòn Morin)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Thương hiệu trà Ô Long đặc sản & cà phê hút khách trẻ; khai trương tháng 11/2025 tại mặt bằng đối diện Cầu Trường Tiền (07:00–22:45).",
+      "source_urls": [
+        "https://phela.vn/nt_Location/so-30-le-loi-phuong-thuan-hoa-hue/",
+        "https://phela.vn/",
+        "https://znews.vn/hue-khong-con-la-ngoai-le-cua-nganh-f-b-post1673655.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo. Cần chốt quy tắc nhóm mức 1 (tạm xếp tra_sua vì xuất phát điểm trà Ô Long sữa đặc sản, kiêm cà phê từ 2026).",
+      "usage_rights_note": "Tên, địa chỉ mới và giờ mở cửa từ trang chính thức phela.vn. Không dùng logo Phê La."
+    },
+    {
+      "id": "hue-z2-ts-phuc-long-aeon",
+      "name_standard": "Phúc Long Coffee & Tea – AEON MALL Huế",
+      "alt_names": [
+        "Phúc Long AEON Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "address_or_location": "Gian hàng T124, Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Thương hiệu trà – trà sữa & cà phê quy mô toàn quốc, đánh dấu mốc lần đầu Phúc Long vào Huế.",
+      "source_urls": [
+        "https://phuclong.com.vn/khuyen-mai/phuc-long-tu-hao-ra-mat-bst-quai-xach-ly-tron-mot-viet-nam-20260421092626",
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/phuc-long-coffee-tea"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; cần chốt ranh giới nhóm mức 1 cho chuỗi lai trà sữa – cà phê.",
+      "usage_rights_note": "Xác nhận trực tiếp từ phuclong.com.vn (4/2026) & aeonmall-vietnam.com. Không dùng logo Phúc Long."
+    },
+    {
+      "id": "hue-z2-ts-phuc-long-nct",
+      "name_standard": "Phúc Long Coffee & Tea – Nguyễn Công Trứ [THIẾU SỐ NHÀ]",
+      "alt_names": [
+        "Phúc Long mặt phố Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "tra_sua",
+      "address_or_location": "Đường Nguyễn Công Trứ, Phường Thuận Hóa, TP. Huế (CHƯA XÁC MINH SỐ NHÀ; tránh nhầm 210 Nguyễn Công Trứ ở TP.HCM)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "tam_hoan_cho_so_nha",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong_can_xac_minh_so_nha",
+      "selection_reason": "Cửa hàng mặt phố trung tâm của Phúc Long sau khi mở rộng từ TTTM ra phố (được Znews 7/2026 ghi nhận).",
+      "source_urls": [
+        "https://znews.vn/hue-khong-con-la-ngoai-le-cua-nganh-f-b-post1673655.html",
+        "https://www.momo.vn/page/9874620"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "can_xac_minh_dia_chi",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu số nhà chính thức trên phuclong.com.vn và thiếu tọa độ WGS 84 thực địa.",
+      "usage_rights_note": "Nguồn thứ cấp (Znews, MoMo); chưa đủ điều kiện đưa lên bản đồ trước khi xác minh số nhà chính xác. Không dùng logo Phúc Long."
+    },
+    {
+      "id": "hue-z2-ts-koi-the-aeon",
+      "name_standard": "KOI Thé – AEON MALL Huế",
+      "alt_names": [
+        "KOI Thé Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi trà sữa Đài Loan phân khúc cao cấp, hiện diện tại AEON MALL Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/koi-the",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo KOI Thé."
+    },
+    {
+      "id": "hue-z2-ts-gong-cha-121-nh",
+      "name_standard": "Gong Cha – 121 Nguyễn Huệ",
+      "alt_names": [
+        "Gong Cha Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "tra_sua",
+      "address_or_location": "Số 121 Nguyễn Huệ, Phường Thuận Hóa, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong_can_doi_chieu_thuc_dia",
+      "selection_reason": "Chuỗi trà sữa Đài Loan lâu năm quen thuộc trên trục đường Nguyễn Huệ trung tâm Huế.",
+      "source_urls": [
+        "https://gongcha.com.vn/",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://huetoplist.vn/top-15-quan-tra-sua-hue-ngon-gia-hop-ly-duoc-gioi-tre-yeu-thich/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "gongcha.com.vn xác nhận có cửa hàng tại Huế năm 2026, nhưng số nhà 121 Nguyễn Huệ lấy từ nguồn thứ cấp cần kiểm tra thực địa & lấy tọa độ GPS.",
+      "usage_rights_note": "Không dùng logo Gong Cha."
+    },
+    {
+      "id": "hue-z2-ts-shuyi-aeon",
+      "name_standard": "Shuyi – AEON MALL Huế",
+      "alt_names": [
+        "Shuyi Grass Jelly & Tea Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi trà sữa thảo mộc – sữa tươi có gian hàng chính thức tại khu ẩm thực Tầng 4 AEON MALL Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Shuyi."
+    },
+    {
+      "id": "hue-z2-ts-mixue-aeon",
+      "name_standard": "Mixue – AEON MALL Huế",
+      "alt_names": [
+        "Trà Sữa & Kem Mixue AEON Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "address_or_location": "Tầng 3 (đối tác ShopeeFood ghi Lô T324), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi trà sữa – kem giá bình dân phổ biến với học sinh, sinh viên Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/mixue",
+        "https://shopeefood.vn/thuong-hieu/tra-sua-mixue"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T324 đối chiếu từ trang đối tác ShopeeFood cần kiểm tra lại tại sàn.",
+      "usage_rights_note": "Xác nhận gian hàng Tầng 3 từ hue.aeonmall-vietnam.com. Không dùng logo Mixue."
+    },
+    {
+      "id": "hue-z2-ts-mixue-37-mtl",
+      "name_standard": "Mixue – 37 Mai Thúc Loan",
+      "alt_names": [
+        "Mixue Mai Thúc Loan"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "tra_sua",
+      "address_or_location": "Số 37 Mai Thúc Loan, Phường Phú Xuân, TP. Huế (cũ: Phường Đông Ba)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "can_xac_minh_thuc_dia_2026",
+      "selection_reason": "Đại diện chuỗi trà sữa bình dân phủ khu vực nội thành Bờ Bắc.",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/mixue-mai-thuc-loan-952313",
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/bun-rieu-cua-o-tam-468063",
+        "https://masothue.com/8662509812-001-ho-kinh-doanh-mixue"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 và cần kiểm tra thực địa vì cửa hàng nhượng quyền Mixue biến động nhanh.",
+      "usage_rights_note": "Đối chiếu cổng du lịch huetripo.hue.gov.vn & MST công khai. Không dùng logo Mixue."
+    },
+    {
+      "id": "hue-z2-ts-tocotoco-aeon",
+      "name_standard": "ToCoToCo – AEON MALL Huế [CẦN XÁC MINH SÀN]",
+      "alt_names": [
+        "Toco Toco AEON Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "tam_hoan_xac_minh_hien_dien",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "mau_thuan_ban_do_san",
+      "selection_reason": "Chuỗi trà sữa Việt Nam lớn; được nhắc trong cẩm nang (5/2025) và bài sự kiện Valentine trên website AEON MALL Huế nhưng vắng tên trong danh sách bản đồ sàn Tầng 3.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://hue.aeonmall-vietnam.com/su-kien/-vong-quay-tinh-yeu-muon-noi-doi-dieu-.html",
+        "https://hue.aeonmall-vietnam.com/ban-do-san"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "can_xac_minh_hoat_dong",
+      "logo_url": null,
+      "missing_fields_note": "Cần kiểm chứng trực tiếp tại Tầng 3 AEON MALL Huế (và kiểm tra thêm cơ sở mặt phố 216 Đinh Tiên Hoàng nếu còn hoạt động); chờ tọa độ AEON MALL.",
+      "usage_rights_note": "Không dùng logo ToCoToCo."
+    },
+    {
+      "id": "hue-z2-qa-gogi-aeon",
+      "name_standard": "GoGi House – AEON MALL Huế",
+      "alt_names": [
+        "GoGi House Võ Nguyên Giáp"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế (web hãng ghi cũ: P. An Đông)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi nướng Hàn Quốc chủ lực của Golden Gate, điểm hẹn ăn uống nhóm đông tiêu biểu tại Huế.",
+      "source_urls": [
+        "https://offer.ggg.com.vn/khai-truong-gogi-house-aeon-hue/",
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/gogi-house"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ ggg.com.vn & aeonmall-vietnam.com. Không dùng logo GoGi House."
+    },
+    {
+      "id": "hue-z2-qa-gogi-go-hue",
+      "name_standard": "GoGi House – GO! Huế",
+      "alt_names": [
+        "GoGi House Big C Huế",
+        "GoGi House 174 Bà Triệu"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "TTTM GO! Huế, số 174 Bà Triệu, TP. Huế (web hãng ghi cũ: P. Phú Nhuận → P. Thuận Hóa mới; đối chiếu ranh giới phường cùng tòa nhà GO! Huế)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-go-hue)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-go-hue",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh nướng Hàn Quốc trung tâm nội đô Bờ Nam tại cụm GO! Huế.",
+      "source_urls": [
+        "https://offer.ggg.com.vn/push-sale-gogi-sbu-t3/",
+        "https://offer.ggg.com.vn/pha-dao-combo-hai-san/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ tọa độ GPS của tòa nhà GO! Huế (hue-z1-lm-go-hue) và xác nhận trực tiếp tình trạng hoạt động năm 2026 (trang ưu đãi ggg.com.vn không ghi rõ ngày cập nhật).",
+      "usage_rights_note": "Xác nhận địa chỉ từ ggg.com.vn. Không dùng logo GoGi House."
+    },
+    {
+      "id": "hue-z2-qa-manwah-aeon",
+      "name_standard": "Manwah – AEON MALL Huế",
+      "alt_names": [
+        "Manwah Taiwanese Hot Pot Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi lẩu Đài Loan nổi bật của Golden Gate tại Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/manwah-lau-dai-loan"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Manwah."
+    },
+    {
+      "id": "hue-z2-qa-dookki-aeon",
+      "name_standard": "Dookki – AEON MALL Huế",
+      "alt_names": [
+        "Dookki Topokki Buffet Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi buffet lẩu tokbokki Hàn Quốc thu hút đông đảo nhóm khách trẻ tại Huế.",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/dookki"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Dookki."
+    },
+    {
+      "id": "hue-z2-qa-jollibee-vincom",
+      "name_standard": "Jollibee – Vincom Plaza Huế",
+      "alt_names": [
+        "JBVN134 Vincom Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "L4-02-03, Tầng 4, TTTM Vincom Plaza Huế, số 50A Hùng Vương (hãng ghi 50 Hùng Vương), Phường Thuận Hóa, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
+      "coordinates": [
+        107.59426,
+        16.46296
+      ],
+      "geometry_ref": "parent_building: hue-z1-lm-vincom-plaza",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi gà rán – mì Ý quy mô lớn phủ mạnh tại Huế, chi nhánh lõi trung tâm Bờ Nam.",
+      "source_urls": [
+        "https://help.jollibee.com.vn/hc/vi/articles/14378093877775-Danh-s%C3%A1ch-c%E1%BB%ADa-h%C3%A0ng",
+        "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/jollibee-vincom-hue-352234"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "logo_url": null,
+      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); hiển thị gom nhóm trong cụm TTTM.",
+      "usage_rights_note": "Địa chỉ chính thức từ jollibee.com.vn (đã cập nhật Phường Thuận Hóa). Không dùng logo Jollibee (bảo lưu bản quyền tại jollibee.com.vn)."
+    },
+    {
+      "id": "hue-z2-qa-jollibee-aeon",
+      "name_standard": "Jollibee – AEON MALL Huế",
+      "alt_names": [
+        "Jollibee Aeon Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 3 (đối tác GotIt ghi Lô T320), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh Jollibee tại khu ẩm thực Tầng 3 AEON MALL Huế.",
+      "source_urls": [
+        "https://jollibee.com.vn/dich-vu/kid-party/order-now",
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://www.gotit.vn/brands/jollibee.229"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T320 lấy từ đối tác GotIt cần kiểm tra lại tại sàn.",
+      "usage_rights_note": "Xác nhận chính thức từ jollibee.com.vn & aeonmall-vietnam.com. Không dùng logo Jollibee."
+    },
+    {
+      "id": "hue-z2-qa-jollibee-135-nt",
+      "name_standard": "Jollibee – 135 Nguyễn Trãi",
+      "alt_names": [
+        "Jollibee Nguyễn Trãi - Huế"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "quan_an",
+      "address_or_location": "Số 135 Nguyễn Trãi, Phường Phú Xuân, TP. Huế (cũ: Phường Thuận Hòa / Tây Lộc)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chi nhánh chuỗi thức ăn nhanh mặt phố hiếm hoi nằm trong nội thành Bờ Bắc, giúp cân bằng độ phủ hai bờ.",
+      "source_urls": [
+        "https://jollibee.com.vn/dich-vu/kid-party/order-now",
+        "https://www.gotit.vn/brands/jollibee.229",
+        "https://huecity.net/trung-tam-thuong-mai/sieu-thi-coop-mart-hue/"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo; tên chi nhánh xác nhận trên jollibee.com.vn, số nhà 135 đối chiếu qua 2 nguồn đối tác/địa phương.",
+      "usage_rights_note": "Không dùng logo Jollibee."
+    },
+    {
+      "id": "hue-z2-qa-kfc-aeon",
+      "name_standard": "KFC – AEON MALL Huế",
+      "alt_names": [
+        "Gà Rán KFC AEON Huế"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi gà rán quốc tế quen thuộc (ngoài ra hãng còn chi nhánh KFC GO! Huế có thể cân nhắc bổ sung sau).",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/kfc"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo KFC."
+    },
+    {
+      "id": "hue-z2-qa-lotteria-aeon",
+      "name_standard": "Lotteria – AEON MALL Huế",
+      "alt_names": [
+        "Lotteria Võ Nguyên Giáp"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 3 (đối tác LifeLink ghi Lô T308), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": null,
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Chuỗi thức ăn nhanh hiện diện lâu năm tại Huế (ngoài ra có chi nhánh mặt phố 09 Nguyễn Huệ trên huetripo.hue.gov.vn cần xác minh thêm).",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/lotteria",
+        "https://beta.lifelink.vn/e-gift/the-qua-tang-lotteria-p47798"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "logo_url": null,
+      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T308 lấy từ trang đối tác LifeLink cần kiểm tra lại tại sàn.",
+      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Lotteria."
+    },
+    {
+      "id": "hue-z2-qa-pizza-company-vincom",
+      "name_standard": "The Pizza Company – Vincom Plaza Huế",
+      "alt_names": [
+        "The Pizza Company Hùng Vương"
+      ],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, TP. Huế",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
+      "coordinates": [
+        107.59426,
+        16.46296
+      ],
+      "geometry_ref": "parent_building: hue-z1-lm-vincom-plaza",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Đại diện chuỗi pizza – mì Ý nổi bật ở lõi trung tâm Huế (hãng cũng có chi nhánh thứ 2 tại Tầng 3 AEON MALL Huế).",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/jollibee-vincom-hue-352234",
+        "https://www.momo.vn/page/1004564",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/the-pizza-company"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "logo_url": null,
+      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); hiển thị gom nhóm trong cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ huetripo.hue.gov.vn & MoMo. Không dùng logo The Pizza Company (bản quyền tại thepizzacompany.vn)."
+    },
+    {
+      "id": "hue-z2-qa-quan-hanh",
+      "name_standard": "Quán Hạnh (Bánh khoái – Nem lụi)",
+      "alt_names": [
+        "Quán chị Hạnh",
+        "Bánh khoái Hạnh"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "quan_an",
+      "address_or_location": "Số 11–15 Phó Đức Chính (huetripo.hue.gov.vn ghi 13 Phó Đức Chính), Phường Thuận Hóa, TP. Huế (cũ: P. Phú Hội)",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Địa chỉ đặc sản Huế nổi bật ở Bờ Nam về bánh khoái, nem lụi, bánh bèo – nậm – lọc (giữ bản sắc Huế cho Mốc 2).",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong",
+        "https://khamphahue.com.vn/Du-lich/Ban-%C4%91o-so/WC-cong-cong/tid/Top-10-quan-che-ngon-xu-Hue-thuc-khach-co-the-tham-khao-thuong-thuc.html/pid/16814/cid/598",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/an-vat-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo; đối chiếu số nhà liên thông 11 vs 13 vs 11–15 Phó Đức Chính tại thực địa.",
+      "usage_rights_note": "Thông tin từ cổng du lịch huetripo.hue.gov.vn & khamphahue.com.vn."
+    },
+    {
+      "id": "hue-z2-qa-bun-bo-me-keo",
+      "name_standard": "Bún bò Huế Mệ Kéo",
+      "alt_names": [
+        "Bún bò Mệ Kéo"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "quan_an",
+      "address_or_location": "Số 20 Bạch Đằng, Phường Phú Xuân, TP. Huế (LƯU Ý XUNG ĐỘT: một bài báo ghi nhầm đường Trần Cao Vân)",
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong_can_chot_dia_chi",
+      "selection_reason": "Quán bún bò Huế lâu đời hơn 70 năm tuổi tại khu Gia Hội – Bờ Bắc (bán sáng 06:00–11:00).",
+      "source_urls": [
+        "https://www.gurutto-vietnam.com/report/267/",
+        "https://soha.vn/khong-phai-pho-banh-mi-mon-an-30-nghin-1-bat-nay-moi-la-huong-vi-viet-lot-top-ngon-nhat-the-gioi-198250511185745434.htm",
+        "https://vnexpress.net/lich-trinh-48-gio-du-lich-chay-bo-o-hue-4864242.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan_co_xung_dot",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo và cần chụp thực địa biển hiệu số 20 Bạch Đằng để xử lý dứt điểm nguồn báo ghi nhầm Trần Cao Vân.",
+      "usage_rights_note": "Thông tin địa điểm công cộng từ báo chí; không sao chép đánh giá người dùng."
+    },
+    {
+      "id": "hue-z2-qa-com-hen-hoa-dong",
+      "name_standard": "Cơm hến Hoa Đông",
+      "alt_names": [
+        "Quán cơm hến – bún hến Hoa Đông"
+      ],
+      "object_type": "diem_chi_nhanh",
+      "category_l1": "quan_an",
+      "address_or_location": "Số 64 Kiệt 7 Ưng Bình (Cồn Hến), Phường Vỹ Dạ, TP. Huế",
+      "riverbank": "giua_song",
+      "display_zoom_tier": "zoom_2 (z14.5-18.0)",
+      "coordinates": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "selection_reason": "Quán cơm hến lâu đời tiêu biểu trên Cồn Hến; minh họa chuẩn xác quy tắc gán bờ giua_song của hệ thống.",
+      "source_urls": [
+        "https://vnexpress.net/food-tour-hue-200-000-dong-an-duoc-gi-5058166.html",
+        "https://www.klook.com/vi/blog/dac-san-hue/",
+        "https://ezcloud.vn/quan-an-ngon-o-hue.html"
+      ],
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_mot_phan",
+      "logo_url": null,
+      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo trong kiệt 7 Ưng Bình (tránh nguồn thứ cấp ghi chung chung là đường Hàn Mặc Tử).",
+      "usage_rights_note": "Thông tin địa điểm công cộng từ báo chí & cẩm nang du lịch."
+    }
+  ]
+}
