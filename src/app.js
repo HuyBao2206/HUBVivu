@@ -66,7 +66,7 @@ const folded = (value) =>
     .replaceAll("đ", "d")
     .trim();
 const json = async (path) => {
-  const res = await fetch("/data/" + path);
+  const res = await fetch(import.meta.env.BASE_URL + "data/" + path);
   if (!res.ok) throw Error(path);
   return res.json();
 };

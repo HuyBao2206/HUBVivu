@@ -18,7 +18,7 @@ export function overviewCamera(config) {
   };
 }
 export function createMap(config, banks) {
-  const origin = location.origin;
+  const baseUrl = new URL(import.meta.env.BASE_URL, document.baseURI).href;
   const flavor = {
     ...namedFlavor("light"),
     background: "#f2efe5",
@@ -81,12 +81,12 @@ export function createMap(config, banks) {
     attributionControl: false,
     style: {
       version: 8,
-      glyphs: origin + "/base/fonts/{fontstack}/{range}.pbf",
-      sprite: origin + "/base/sprites/light",
+      glyphs: baseUrl + "base/fonts/{fontstack}/{range}.pbf",
+      sprite: baseUrl + "base/sprites/light",
       sources: {
         hue: {
           type: "vector",
-          tiles: [origin + "/base/hue/{z}/{x}/{y}.mvt"],
+          tiles: [baseUrl + "base/hue/{z}/{x}/{y}.mvt"],
           bounds: [107.48, 16.35, 107.7, 16.56],
           minzoom: 10,
           maxzoom: 15,
