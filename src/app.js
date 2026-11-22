@@ -111,7 +111,40 @@ async function start() {
     ...local.records.map((r) => ({ ...r, minZoom: display.localZoom })),
   );
 
-  const map = createMap(overview.viewport_config, anchors);
+  const key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+  let googleSource;
+  if (key && new URLSearchParams(location.search).get("mode") !== "heritage") {
+    try {
+      const { createGoogle } = await import("./google");
+      googleSource = await createGoogle(overview.viewport_config, key);
+    } catch {
+      $("#serviceStatus").textContent =
+        "Google Maps chưa tải được. Đang mở bản đồ cẩm nang.";
+    }
+  }
+  const map = googleSource?.map || createMap(overview.viewport_config, anchors);
+  let livePlaces = [],
+    liveSaved = [],
+    request = 0,
+    timer;
+  if (key) {
+    const mode = $("#mode");
+    mode.hidden = false;
+    mode.textContent = googleSource ? "Cẩm nang Huế" : "Quán từ Google Maps";
+    mode.href = googleSource ? "?mode=heritage" : location.pathname;
+  }
+  if (googleSource) {
+    document.body.classList.add("google");
+    for (const id of ["bank", "dish"])
+      $("#" + id).closest("label").hidden = true;
+    $("#category option[value=landmark]").remove();
+    $("#googleCredit").hidden = false;
+    window.gm_authFailure = () => {
+      $("#serviceStatus").textContent =
+        "Google Maps từ chối khóa của website. Bạn có thể mở Cẩm nang Huế.";
+    };
+  }
+
   let view = "explore",
     selected = null,
     matches = [],
@@ -121,6 +154,39 @@ async function start() {
     saved = new Set(JSON.parse(localStorage.getItem("hue-saved") || "[]"));
   } catch {
     saved = new Set();
+  }
+  async function refreshGoogle() {
+    const seq = ++request;
+    const isSaved = view === "saved";
+    $("#serviceStatus").textContent = "Đang tải địa điểm từ Google Maps…";
+    try {
+      if (isSaved) {
+        const records = await Promise.all(
+          [...saved]
+            .filter((id) => id.startsWith("google:"))
+            .map((id) => googleSource.byId(id)),
+        );
+        if (seq !== request) return;
+        liveSaved = records.filter(Boolean);
+      } else {
+        const records = await googleSource.search(
+          $("#query").value.trim(),
+          $("#category").value,
+        );
+        if (seq !== request) return;
+        livePlaces = records;
+      }
+      $("#serviceStatus").textContent = "";
+    } catch {
+      if (seq !== request) return;
+      if (isSaved) liveSaved = [];
+      else livePlaces = [];
+      $("#serviceStatus").textContent = "Chưa tải được quán từ Google Maps.";
+      const retry = element("button", "retry", "Thử lại");
+      retry.onclick = refreshGoogle;
+      $("#serviceStatus").append(retry);
+    }
+    render();
   }
   function item(r) {
     const [glyph, color, kind] = appearance(r);
@@ -144,7 +210,17 @@ async function start() {
     return btn;
   }
   function switchView(next) {
+    const previousView = view;
+    const changed = view !== next;
     view = next;
+    if (googleSource && previousView === "saved" && changed) {
+      ++request;
+      $("#serviceStatus").textContent = "";
+    }
+    if (googleSource && changed && next === "saved") {
+      clearTimeout(timer);
+      refreshGoogle();
+    }
     document.body.dataset.view = view;
     for (const name of ["explore", "directory", "saved"])
       $("#" + name).classList.toggle("active", name === view);
@@ -156,8 +232,16 @@ async function start() {
     $("#detail").hidden = true;
   }
   function openPlace(r, focus = false, group = []) {
-    if (matchMedia("(max-width:760px)").matches && view !== "explore")
+    if (matchMedia("(max-width:760px)").matches && view !== "explore") {
+      if (
+        googleSource &&
+        view === "saved" &&
+        !livePlaces.some((p) => p.id === r.id)
+      ) {
+        livePlaces = [r, ...livePlaces];
+      }
       switchView("explore");
+    }
     selected = r;
     if (focus && r.coordinates)
       map.easeTo({
@@ -173,10 +257,7 @@ async function start() {
     const tile = element("span", "tile");
     tile.append(icon(glyph));
     const title = element("div", "");
-    title.append(
-      element("small", "", kind || types[r.category_l1]),
-      element("h2", "", r.name_standard),
-    );
+    title.append(element("h2", "", r.name_standard));
     const x = element("button", "close");
     x.append(icon("x"));
     x.ariaLabel = "Đóng thông tin";
@@ -191,35 +272,6 @@ async function start() {
       ),
     );
     box.append(addr);
-    if (r.floor_or_unit) box.append(element("p", "note", r.floor_or_unit));
-    if (r.coordinate_source_url) {
-      const source = element(
-        "a",
-        "note",
-        "Nguồn tọa độ · " +
-          r.coordinate_source_provider +
-          " · " +
-          r.coordinate_source_license,
-      );
-      source.href = r.coordinate_source_url;
-      source.target = "_blank";
-      source.rel = "noopener";
-      box.append(source);
-    }
-    if (!r.coordinates)
-      box.append(
-        element("small", "note", "Chưa xác minh vị trí ghim trên bản đồ."),
-      );
-    if (r.verification_status === "xac_minh_thong_tin_toa_do_toa_nha")
-      box.append(
-        element(
-          "small",
-          "note",
-          "Ghim ở tâm tòa nhà. Xem địa chỉ để tìm chi nhánh.",
-        ),
-      );
-    if (r.operating_status && r.operating_status !== "dang_hoat_dong")
-      box.append(element("small", "note", "Thông tin hoạt động cần xác minh."));
     for (const branch of group) box.append(item(branch));
     const save = element(
       "button",
@@ -234,7 +286,12 @@ async function start() {
       render();
       openPlace(r, false, group);
     };
-    box.append(save);
+    save.className = "bookmarkAction";
+    save.ariaLabel = save.textContent;
+    save.title = save.textContent;
+    save.setAttribute("aria-pressed", String(saved.has(r.id)));
+    save.replaceChildren(icon("bookmark"));
+    head.insertBefore(save, x);
     if (
       r.google_maps_entitled === true &&
       /^https:\/\/(www\.google\.com\/maps\/|maps\.app\.goo\.gl\/)/.test(
@@ -325,22 +382,32 @@ async function start() {
       if (hub) el.append(element("b", "bubble", String(branches.length)));
       el.onclick = () => openPlace(building || r, false, hub ? branches : []);
       markers.push(
-        new maplibregl.Marker({ element: el })
-          .setLngLat(r.coordinates)
-          .addTo(map),
+        googleSource
+          ? map.marker(el, r.coordinates)
+          : new maplibregl.Marker({ element: el })
+              .setLngLat(r.coordinates)
+              .addTo(map),
       );
     }
   }
   function render() {
     const query = folded($("#query").value);
-    matches = places.filter(
+    const source = googleSource
+      ? view === "saved"
+        ? liveSaved
+        : livePlaces
+      : places;
+    matches = source.filter(
       (r) =>
         (view !== "saved" || saved.has(r.id)) &&
         (!$("#bank").value || r.riverbank === $("#bank").value) &&
-        (!$("#category").value || r.category_l1 === $("#category").value) &&
-        folded([r.name_standard, ...(r.alt_names || [])].join(" ")).includes(
-          query,
-        ),
+        ((googleSource && view !== "saved") ||
+          !$("#category").value ||
+          r.category_l1 === $("#category").value) &&
+        ((googleSource && view !== "saved") ||
+          folded([r.name_standard, ...(r.alt_names || [])].join(" ")).includes(
+            query,
+          )),
     );
     const dish = $("#dish");
     const previous = dish.value;
@@ -359,6 +426,20 @@ async function start() {
       matches = matches.filter((place) =>
         place.dish_tags?.includes(dish.value),
       );
+    if (googleSource) {
+      const credits = $("#googleCredit");
+      credits.replaceChildren(document.createTextNode("Google Maps"));
+      const seen = new Set();
+      for (const r of matches)
+        for (const credit of r.attributions) {
+          if (!credit.provider || seen.has(credit.provider)) continue;
+          seen.add(credit.provider);
+          const link = element("a", "", credit.provider);
+          if (credit.providerURI?.startsWith("https://"))
+            link.href = credit.providerURI;
+          credits.append(" · ", link);
+        }
+    }
     $("#count").textContent = matches.length;
     $(".listHead h2").textContent =
       view === "saved"
@@ -385,10 +466,20 @@ async function start() {
       switchView("directory");
     else render();
   }
-  $("#query").oninput = filter;
+  function searchChanged() {
+    filter();
+    if (googleSource && view !== "saved") {
+      ++request;
+      livePlaces = [];
+      render();
+      clearTimeout(timer);
+      timer = setTimeout(refreshGoogle, 650);
+    }
+  }
+  $("#query").oninput = searchChanged;
   $("#dish").onchange = filter;
   $("#bank").onchange = filter;
-  $("#category").onchange = filter;
+  $("#category").onchange = searchChanged;
   for (const id of ["explore", "directory", "saved"])
     $("#" + id).onclick = () => {
       switchView(id);
@@ -411,6 +502,7 @@ async function start() {
     if (e.key === "Escape") close();
   });
   switchView("explore");
+  if (googleSource) await refreshGoogle();
 }
 start().catch((e) => {
   $("#list").textContent = "Không tải được bản đồ. Hãy tải lại trang.";

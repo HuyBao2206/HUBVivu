@@ -25,4 +25,12 @@ Dữ liệu nền © [OpenStreetMap contributors](https://www.openstreetmap.org/
 
 ## Dữ liệu HUE-03
 
-Các tọa độ chi nhánh và nguồn tương ứng nằm trong `public/data/hue-zoom2-branches.json` và `public/data/hue-zoom3.json`. Mốc 2 mở ở z14.5, mốc 3 ở z15.5. Dùng cùng `shared_pin_group` cho các quán cùng tòa nhà. Danh mục món nằm ở `category_l2`, mỗi quán chọn các ID tương ứng trong `dish_tags`. Các điểm cần xác minh được lưu riêng trong `hue-pending.json`. Tọa độ tham khảo từ [Wikipedia và Wikivoyage contributors](https://creativecommons.org/licenses/by-sa/4.0/) theo CC BY-SA 4.0 và từ OpenStreetMap theo ODbL. Mỗi thẻ có liên kết nguồn khi dữ liệu cung cấp.
+Các tọa độ chi nhánh và nguồn tương ứng nằm trong `public/data/hue-zoom2-branches.json` và `public/data/hue-zoom3.json`. Mốc 2 mở ở z14.5, mốc 3 ở z15.5. Dùng cùng `shared_pin_group` cho các quán cùng tòa nhà. Danh mục món nằm ở `category_l2`, mỗi quán chọn các ID tương ứng trong `dish_tags`. Các điểm cần xác minh được lưu riêng trong `hue-pending.json`. Tọa độ tham khảo từ [Wikipedia và Wikivoyage contributors](https://creativecommons.org/licenses/by-sa/4.0/) theo CC BY-SA 4.0 và từ OpenStreetMap theo ODbL. Nguồn chi tiết được lưu trong tệp dữ liệu.
+
+## Quán từ Google Maps
+
+Để dùng nguồn trực tiếp, bật billing, **Maps JavaScript API** và **Places API (New)** trong Google Cloud. Tạo khóa trình duyệt giới hạn kiểu **Websites** cho `https://huybao2206.github.io/*` và giới hạn API vào hai dịch vụ trên. Khóa Maps JavaScript xuất hiện trong trình duyệt theo thiết kế. Đặt quota theo ngân sách.
+
+Trên GitHub, thêm repository Actions secret `VITE_GOOGLE_MAPS_API_KEY`, rồi chạy **Deploy HUB Vi Vu to Pages → Run workflow**. Khi phát triển, đặt cùng tên trong `.env.local` và cho phép referrer localhost dùng để thử. Bản build thiếu khóa dùng cẩm nang Huế đã đóng gói.
+
+Khi có khóa, trang mở Google Maps với màu nền và ghim riêng. Places Text Search (New) tìm tối đa 20 kết quả mỗi lượt trong khung khám phá Huế. Nhập tên hoặc món, hoặc chọn loại quán để tìm lại. Ứng dụng dùng tên, địa chỉ, vị trí, loại hình, ID và ghi công; kết quả chỉ ở bộ nhớ phiên. Danh sách yêu thích lưu Place ID. Trong chế độ Google, quán đã lưu được đọc lại từ Places khi mở danh sách. Dữ liệu cẩm nang HUE-03 cùng bộ lọc hai bờ và món đã gắn thẻ vẫn mở được qua “Cẩm nang Huế”.

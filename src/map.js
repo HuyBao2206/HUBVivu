@@ -22,17 +22,17 @@ export function createMap(config, banks) {
   const baseUrl = new URL(import.meta.env.BASE_URL, document.baseURI).href;
   const flavor = {
     ...namedFlavor("light"),
-    background: "#f2efe5",
-    earth: "#f2efe5",
-    water: "#a4d0cd",
-    park_a: "#d6e2c4",
-    park_b: "#c6d8b5",
-    buildings: "#dfdcd0",
+    background: "#f3e7ce",
+    earth: "#f3e7ce",
+    water: "#93b9aa",
+    park_a: "#d0d1ae",
+    park_b: "#bac6a3",
+    buildings: "#ded0b5",
     major: "#fff9df",
-    highway: "#faedc9",
+    highway: "#e8cc91",
     minor_a: "#fffef9",
     minor_b: "#fffef9",
-    roads_label_major: "#78766d",
+    roads_label_major: "#78684f",
   };
   const styleLayers = layers("hue", flavor, { lang: "vi" }).filter(
     (l) => l["source-layer"] !== "pois" && l.id !== "roads_shields",

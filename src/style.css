@@ -630,3 +630,145 @@ body[data-view="saved"] .cover {
     max-width: 135px;
   }
 }
+
+/* Lacquer, aged brass and celadon from the imperial city. */
+:root {
+  --ink: #412d31;
+  --green: #702d38;
+  --paper: #faf5e9;
+  --line: #dbcfb6;
+}
+header {
+  background: #512530;
+  color: #fff4dc;
+  border-bottom: 3px double #d2b377;
+}
+header .series,
+header .divider {
+  color: #e5ccab;
+  border-color: #aa865d;
+}
+.seal {
+  color: #f6daa0;
+  background: #713643;
+  border: 1px solid #c7a66b;
+  border-radius: 50%;
+}
+header .city {
+  background: #63343e;
+  color: #fae9c8;
+  border-color: #9d7859;
+}
+header .city i,
+.mapBadge i {
+  background: #bf9754;
+}
+#mode {
+  margin-left: auto;
+  color: #f0d7a1;
+  font-size: 12px;
+}
+#mode:not([hidden]) ~ .city {
+  margin-left: 0;
+}
+.cover {
+  background: linear-gradient(115deg, #482331, #783341);
+  border-bottom: 3px double #bf9c65;
+}
+.cover h1 em,
+.eyebrow {
+  color: #ebca91;
+}
+.cover:before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid #bfa26f64;
+  pointer-events: none;
+}
+.toolbar,
+footer,
+aside {
+  background: #fffaf0;
+}
+nav .active {
+  background: #f0ded5;
+  color: #782c38;
+}
+.mapBadge {
+  background: #fdf5e3;
+  border: 3px double #af8c56;
+  border-radius: 2px;
+  color: #634334;
+}
+.marker {
+  border-radius: 35% 35% 43% 43%;
+  background: var(--tone);
+  outline: 1px solid #b8965c;
+  border-color: #fcf0cc;
+  box-shadow: 0 2px 5px #52372855;
+}
+.marker:before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  pointer-events: none;
+  border: 1px solid #fff6d85c;
+  border-radius: inherit;
+}
+.pinLabel {
+  font-family: Lora, serif;
+  font-size: 11px;
+  background: #fffae9f2;
+  color: #4e3533;
+}
+.gold {
+  --tone: #9a7037;
+  --wash: #f1e6c9;
+}
+.coral {
+  --tone: #973f3c;
+  --wash: #f4e0d4;
+}
+.plum {
+  --tone: #70465f;
+  --wash: #eee2e7;
+}
+.green {
+  --tone: #426d61;
+  --wash: #e1e9d9;
+}
+.bookmarkAction {
+  padding: 4px;
+  color: #927651;
+  align-self: start;
+}
+.bookmarkAction[aria-pressed="true"] svg {
+  fill: #e0c186;
+}
+.address {
+  margin-bottom: 0;
+}
+.google .marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+#serviceStatus:not(:empty),
+#googleCredit:not([hidden]) {
+  padding: 6px 15px;
+  font-size: 12px;
+  background: #fff6de;
+  color: #553d2c;
+}
+.retry {
+  text-decoration: underline;
+}
+#googleCredit {
+  border-top: 1px solid var(--line);
+}
+@media (max-width: 760px) {
+  header:has(#mode:not([hidden])) .series,
+  header:has(#mode:not([hidden])) .divider {
+    display: none;
+  }
+}

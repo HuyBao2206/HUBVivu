@@ -10,9 +10,10 @@
   <body>
     <header>
       <div class="brand">
-        <span class="seal" data-icon="compass"></span>HUB Vi Vu
+        <span class="seal" data-icon="flower-2"></span>HUB Vi Vu
       </div>
-      <span class="divider"></span><span class="series">Đi mô ở Huế</span
+      <a id="mode" hidden></a><span class="divider"></span
+      ><span class="series">Đi mô ở Huế</span
       ><span class="city"><i></i> Thành phố Huế</span>
     </header>
     <section class="toolbar" aria-label="Tìm kiếm và lọc">
@@ -49,6 +50,7 @@
         >
       </div>
     </section>
+    <div id="serviceStatus" role="status"></div>
     <main>
       <aside id="panel">
         <div class="cover">
@@ -61,6 +63,7 @@
           <span id="count"></span>
         </div>
         <section id="list" aria-label="Danh sách địa điểm"></section>
+        <small id="googleCredit" hidden>Google Maps</small>
       </aside>
       <section class="mapFrame" aria-label="Bản đồ Huế">
         <div id="map"></div>

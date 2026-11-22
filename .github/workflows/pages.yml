@@ -26,6 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build -- --base "$PAGES_BASE/"
         env:
+          VITE_GOOGLE_MAPS_API_KEY: ${{ secrets.VITE_GOOGLE_MAPS_API_KEY }}
           PAGES_BASE: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@v3
         with:
