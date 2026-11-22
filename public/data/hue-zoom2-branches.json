@@ -70,7 +70,7 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "ca_phe",
-      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, TP. Huế",
+      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
       "coordinates": [
@@ -82,13 +82,30 @@
       "selection_reason": "Chi nhánh đại diện trung tâm Ngã 6 Hùng Vương của chuỗi cà phê có độ phủ lớn nhất Huế (13 cửa hàng tính đến 7/2026).",
       "source_urls": [
         "https://vincom.com.vn/vincom-plaza-hue/gioi-thieu",
-        "https://ae.trip.com/moments/detail/hue-667-134445859?locale=en-AE"
+        "https://vincom.com.vn/vincom-plaza-hue",
+        "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Kham-pha-Hue/tb/Trung-tam-thuong-mai-Vincom-Plaza-418221",
+        "https://mapcarta.com/W749331141"
       ],
       "checked_date": "2026-11-22",
       "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); khuyến nghị thay bằng GPS tự đo và hiển thị dạng danh sách trong cụm TTTM.",
-      "usage_rights_note": "Xác nhận có mặt trên trang chính thức vincom.com.vn và nguồn du lịch 8/2025. Không dùng logo Highlands Coffee (bản quyền tại highlandscoffee.com.vn)."
+      "missing_fields_note": "Ghim tòa nhà đã có sẵn từ đợt trước; HUE-03 chuẩn hóa shared_pin_group, coordinate_type và phường mới.",
+      "usage_rights_note": "Xác nhận từ vincom.com.vn; tọa độ tòa nhà OSM way/749331141 (ODbL). Không dùng logo Highlands Coffee.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Nhuận, Thành phố Huế",
+      "floor_or_unit": "Tầng 1",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-vincom-plaza",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Highlands Coffee Vincom Plaza Huế, 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/749331141",
+      "map_reference_url": "https://mapcarta.com/W749331141",
+      "address_coordinate_match_basis": "Xác nhận hiện diện trên trang giới thiệu chính thức Vincom Plaza Huế và cập nhật Phường Thuận Hóa; giữ nguyên ghim tòa nhà đại diện OSM way/749331141."
     },
     {
       "id": "hue-z2-cf-highlands-aeon",
@@ -96,22 +113,42 @@
       "alt_names": [],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "ca_phe",
-      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chi nhánh đại diện khu đô thị mới An Vân Dương trong tổ hợp thương mại lớn nhất Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/highlands-coffee"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/highlands-coffee",
+        "https://aeonmall-vietnam.com/vi/aeon-mall-hue/",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế (hue-z1-lm-aeon-mall).",
-      "usage_rights_note": "Xác nhận chính thức trên hue.aeonmall-vietnam.com. Không dùng logo Highlands Coffee."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Highlands Coffee.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 1",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Highlands Coffee – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Gian hàng Highlands Coffee xác nhận tại Tầng 1 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà đại diện OSM way/1152318720."
     },
     {
       "id": "hue-z2-cf-highlands-27-le-huan",
@@ -226,23 +263,46 @@
       ],
       "object_type": "diem_chi_nhanh",
       "category_l1": "tra_sua",
-      "address_or_location": "Số 30 Lê Lợi, Phường Thuận Hóa, TP. Huế (đối diện Cầu Trường Tiền, cạnh KS Sài Gòn Morin)",
+      "address_or_location": "Tầng trệt Khách sạn Saigon Morin, số 30 Lê Lợi, Phường Thuận Hóa, Thành phố Huế (đối diện Cầu Trường Tiền)",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (z14.5-18.0)",
-      "coordinates": null,
-      "geometry_ref": "",
+      "coordinates": [
+        107.590265,
+        16.466602
+      ],
+      "geometry_ref": "building_ref: Saigon Morin Hotel (30 Lê Lợi)",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Thương hiệu trà Ô Long đặc sản & cà phê hút khách trẻ; khai trương tháng 11/2025 tại mặt bằng đối diện Cầu Trường Tiền (07:00–22:45).",
       "source_urls": [
         "https://phela.vn/nt_Location/so-30-le-loi-phuong-thuan-hoa-hue/",
         "https://phela.vn/",
-        "https://znews.vn/hue-khong-con-la-ngoai-le-cua-nganh-f-b-post1673655.html"
+        "https://znews.vn/hue-khong-con-la-ngoai-le-cua-nganh-f-b-post1673655.html",
+        "https://huongrivercruises.com/phe-la-30-le-loi-hue/",
+        "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Saigon_Morin"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_thieu_toa_do",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo. Cần chốt quy tắc nhóm mức 1 (tạm xếp tra_sua vì xuất phát điểm trà Ô Long sữa đặc sản, kiêm cà phê từ 2026).",
-      "usage_rights_note": "Tên, địa chỉ mới và giờ mở cửa từ trang chính thức phela.vn. Không dùng logo Phê La."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà Khách sạn Saigon Morin (CC BY-SA 4.0). Tiếp tục giữ phân loại mức 1 là tra_sua kèm dish_tags tra_o_long và ca_phe_dac_san.",
+      "usage_rights_note": "Địa chỉ từ phela.vn; tọa độ đại diện tòa nhà từ Wikipedia (CC BY-SA 4.0). Không dùng logo Phê La.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [
+        "tra_o_long",
+        "ca_phe_dac_san"
+      ],
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+      "floor_or_unit": "Tầng trệt Khách sạn Saigon Morin",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Phê La 30 Lê Lợi, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikipedia (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Saigon_Morin",
+      "map_reference_url": "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Saigon_Morin",
+      "address_coordinate_match_basis": "Trang chính thức phela.vn, báo Znews và cẩm nang du lịch xác nhận Phê La khai trương tháng 11/2025 tại tầng trệt Khách sạn Saigon Morin (30 Lê Lợi, đối diện cầu Trường Tiền); tọa độ đại diện tòa nhà lấy từ Wikipedia Khách sạn Saigon Morin, cách cầu Trường Tiền 309,5 m về phía Đông Nam."
     },
     {
       "id": "hue-z2-ts-phuc-long-aeon",
@@ -252,23 +312,43 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "tra_sua",
-      "address_or_location": "Gian hàng T124, Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Lô T124, Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Thương hiệu trà – trà sữa & cà phê quy mô toàn quốc, đánh dấu mốc lần đầu Phúc Long vào Huế.",
       "source_urls": [
         "https://phuclong.com.vn/khuyen-mai/phuc-long-tu-hao-ra-mat-bst-quai-xach-ly-tron-mot-viet-nam-20260421092626",
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/phuc-long-coffee-tea"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/phuc-long-coffee-tea",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; cần chốt ranh giới nhóm mức 1 cho chuỗi lai trà sữa – cà phê.",
-      "usage_rights_note": "Xác nhận trực tiếp từ phuclong.com.vn (4/2026) & aeonmall-vietnam.com. Không dùng logo Phúc Long."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ phuclong.com.vn và hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Phúc Long.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Lô T124, Tầng 1",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Phúc Long Coffee & Tea – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Trang chính thức phuclong.com.vn (2026) và sơ đồ sàn AEON MALL Huế xác nhận Lô T124 Tầng 1; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-ts-phuc-long-nct",
@@ -303,23 +383,42 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "tra_sua",
-      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi trà sữa Đài Loan phân khúc cao cấp, hiện diện tại AEON MALL Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
         "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/koi-the",
-        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html"
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo KOI Thé."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo KOI Thé.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 1",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "KOI Thé – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận KOI Thé tại Tầng 1 trên sơ đồ sàn và cẩm nang chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-ts-gong-cha-121-nh",
@@ -355,22 +454,41 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "tra_sua",
-      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi trà sữa thảo mộc – sữa tươi có gian hàng chính thức tại khu ẩm thực Tầng 4 AEON MALL Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html"
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Shuyi."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Shuyi.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 4",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Shuyi – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận SHUYI tại Tầng 4 trên sơ đồ sàn và cẩm nang chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-ts-mixue-aeon",
@@ -380,23 +498,42 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "tra_sua",
-      "address_or_location": "Tầng 3 (đối tác ShopeeFood ghi Lô T324), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi trà sữa – kem giá bình dân phổ biến với học sinh, sinh viên Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
         "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/mixue",
-        "https://shopeefood.vn/thuong-hieu/tra-sua-mixue"
+        "https://shopeefood.vn/thuong-hieu/tra-sua-mixue",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T324 đối chiếu từ trang đối tác ShopeeFood cần kiểm tra lại tại sàn.",
-      "usage_rights_note": "Xác nhận gian hàng Tầng 3 từ hue.aeonmall-vietnam.com. Không dùng logo Mixue."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Mixue.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3 (đối tác ghi Lô T324)",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Mixue – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận MIXUE tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-ts-mixue-37-mtl",
@@ -458,23 +595,45 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế (web hãng ghi cũ: P. An Đông)",
+      "address_or_location": "Lô T427-2, Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi nướng Hàn Quốc chủ lực của Golden Gate, điểm hẹn ăn uống nhóm đông tiêu biểu tại Huế.",
       "source_urls": [
         "https://offer.ggg.com.vn/khai-truong-gogi-house-aeon-hue/",
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/gogi-house"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/gogi-house",
+        "https://www.lifelink.vn/e-voucher/the-qua-tang-gogi-house-p52917",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ ggg.com.vn & aeonmall-vietnam.com. Không dùng logo GoGi House."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ ggg.com.vn và hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo GoGi House.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [
+        "nuong_lau"
+      ],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Lô T427-2, Tầng 4",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "GoGi House – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận GOGI HOUSE tại Tầng 4 (Lô T427-2) trên sơ đồ sàn AEON MALL Huế, ggg.com.vn và danh sách voucher; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-gogi-go-hue",
@@ -510,22 +669,41 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi lẩu Đài Loan nổi bật của Golden Gate tại Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/manwah-lau-dai-loan"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/manwah-lau-dai-loan",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Manwah."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Manwah.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 4",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Manwah – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận MANWAH tại Tầng 4 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-dookki-aeon",
@@ -535,22 +713,42 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi buffet lẩu tokbokki Hàn Quốc thu hút đông đảo nhóm khách trẻ tại Huế.",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/dookki"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/dookki",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/aeon-mall-hue-co-gi-an.html",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Dookki."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Dookki.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế (ghi chú: sơ đồ sàn ghi Tầng 3, cẩm nang cũ ghi Tầng 4)",
+      "floor_or_unit": "Tầng 3",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Dookki – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận Dookki tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế (ghi chú cẩm nang cũ ghi Tầng 4); dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-jollibee-vincom",
@@ -560,7 +758,7 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "L4-02-03, Tầng 4, TTTM Vincom Plaza Huế, số 50A Hùng Vương (hãng ghi 50 Hùng Vương), Phường Thuận Hóa, TP. Huế",
+      "address_or_location": "Lô L4-02-03, Tầng 4, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
       "coordinates": [
@@ -572,13 +770,29 @@
       "selection_reason": "Chuỗi gà rán – mì Ý quy mô lớn phủ mạnh tại Huế, chi nhánh lõi trung tâm Bờ Nam.",
       "source_urls": [
         "https://help.jollibee.com.vn/hc/vi/articles/14378093877775-Danh-s%C3%A1ch-c%E1%BB%ADa-h%C3%A0ng",
-        "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/jollibee-vincom-hue-352234"
+        "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/jollibee-vincom-hue-352234",
+        "https://mapcarta.com/W749331141"
       ],
       "checked_date": "2026-11-22",
       "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); hiển thị gom nhóm trong cụm TTTM.",
-      "usage_rights_note": "Địa chỉ chính thức từ jollibee.com.vn (đã cập nhật Phường Thuận Hóa). Không dùng logo Jollibee (bảo lưu bản quyền tại jollibee.com.vn)."
+      "missing_fields_note": "Ghim tòa nhà đã có sẵn từ đợt trước; HUE-03 chuẩn hóa shared_pin_group, coordinate_type và phường mới.",
+      "usage_rights_note": "Xác nhận từ jollibee.com.vn và huetripo.hue.gov.vn; tọa độ tòa nhà OSM way/749331141 (ODbL). Không dùng logo Jollibee.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Nhuận, Thành phố Huế (hãng ghi 50 Hùng Vương)",
+      "floor_or_unit": "Lô L4-02-03, Tầng 4",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-vincom-plaza",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Jollibee Vincom Plaza Huế, 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/749331141",
+      "map_reference_url": "https://mapcarta.com/W749331141",
+      "address_coordinate_match_basis": "Cập nhật địa chỉ mới Phường Thuận Hóa và số lô L4-02-03 từ danh sách cửa hàng chính thức Jollibee Việt Nam; giữ nguyên ghim tòa nhà đại diện OSM way/749331141."
     },
     {
       "id": "hue-z2-qa-jollibee-aeon",
@@ -588,23 +802,42 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 3 (đối tác GotIt ghi Lô T320), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chi nhánh Jollibee tại khu ẩm thực Tầng 3 AEON MALL Huế.",
       "source_urls": [
         "https://jollibee.com.vn/dich-vu/kid-party/order-now",
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://www.gotit.vn/brands/jollibee.229"
+        "https://www.gotit.vn/brands/jollibee.229",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T320 lấy từ đối tác GotIt cần kiểm tra lại tại sàn.",
-      "usage_rights_note": "Xác nhận chính thức từ jollibee.com.vn & aeonmall-vietnam.com. Không dùng logo Jollibee."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ jollibee.com.vn và hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Jollibee.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3 (đối tác ghi Lô T320)",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Jollibee – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận JOLLIBEE tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-jollibee-135-nt",
@@ -640,22 +873,43 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi gà rán quốc tế quen thuộc (ngoài ra hãng còn chi nhánh KFC GO! Huế có thể cân nhắc bổ sung sau).",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/kfc"
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/kfc",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo KFC."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo KFC.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [
+        "ga_ran"
+      ],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "KFC – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận KFC tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-lotteria-aeon",
@@ -665,23 +919,42 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 3 (đối tác LifeLink ghi Lô T308), TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, TP. Huế",
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
-      "coordinates": null,
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
       "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Chuỗi thức ăn nhanh hiện diện lâu năm tại Huế (ngoài ra có chi nhánh mặt phố 09 Nguyễn Huệ trên huetripo.hue.gov.vn cần xác minh thêm).",
       "source_urls": [
         "https://hue.aeonmall-vietnam.com/ban-do-san",
         "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/lotteria",
-        "https://beta.lifelink.vn/e-gift/the-qua-tang-lotteria-p47798"
+        "https://beta.lifelink.vn/e-gift/the-qua-tang-lotteria-p47798",
+        "https://mapcarta.com/W1152318720"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_thong_tin_cho_toa_do_tttm",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Chờ chốt tọa độ tâm tòa nhà AEON MALL Huế; số lô T308 lấy từ trang đối tác LifeLink cần kiểm tra lại tại sàn.",
-      "usage_rights_note": "Xác nhận chính thức từ hue.aeonmall-vietnam.com. Không dùng logo Lotteria."
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Lotteria.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [],
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3 (đối tác ghi Lô T308)",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Lotteria – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "address_coordinate_match_basis": "Xác nhận LOTTERIA tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720."
     },
     {
       "id": "hue-z2-qa-pizza-company-vincom",
@@ -691,7 +964,7 @@
       ],
       "object_type": "diem_chi_nhanh_trong_tttm",
       "category_l1": "quan_an",
-      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, TP. Huế",
+      "address_or_location": "Tầng 1, TTTM Vincom Plaza Huế, số 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-vincom-plaza)",
       "coordinates": [
@@ -704,13 +977,31 @@
       "source_urls": [
         "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/jollibee-vincom-hue-352234",
         "https://www.momo.vn/page/1004564",
-        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/the-pizza-company"
+        "https://vincom.com.vn/vincom-plaza-hue",
+        "https://mapcarta.com/W749331141"
       ],
       "checked_date": "2026-11-22",
       "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
       "logo_url": null,
-      "missing_fields_note": "Dùng tạm tọa độ tâm tòa nhà Vincom (OSM way 749331141); hiển thị gom nhóm trong cụm TTTM.",
-      "usage_rights_note": "Xác nhận từ huetripo.hue.gov.vn & MoMo. Không dùng logo The Pizza Company (bản quyền tại thepizzacompany.vn)."
+      "missing_fields_note": "Ghim tòa nhà đã có sẵn từ đợt trước; HUE-03 chuẩn hóa shared_pin_group, coordinate_type và phường mới.",
+      "usage_rights_note": "Xác nhận từ huetripo.hue.gov.vn; tọa độ tòa nhà OSM way/749331141 (ODbL). Không dùng logo The Pizza Company.",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [
+        "pizza"
+      ],
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Nhuận, Thành phố Huế",
+      "floor_or_unit": "Tầng 1",
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-vincom-plaza",
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "The Pizza Company Vincom Plaza Huế, 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/749331141",
+      "map_reference_url": "https://mapcarta.com/W749331141",
+      "address_coordinate_match_basis": "Xác nhận Tầng 1 TTTM Vincom Huế trên cổng huetripo.hue.gov.vn và cập nhật Phường Thuận Hóa; giữ nguyên ghim tòa nhà đại diện OSM way/749331141."
     },
     {
       "id": "hue-z2-qa-quan-hanh",
@@ -721,23 +1012,46 @@
       ],
       "object_type": "diem_chi_nhanh",
       "category_l1": "quan_an",
-      "address_or_location": "Số 11–15 Phó Đức Chính (huetripo.hue.gov.vn ghi 13 Phó Đức Chính), Phường Thuận Hóa, TP. Huế (cũ: P. Phú Hội)",
+      "address_or_location": "Số 11 Phó Đức Chính (khuôn viên liền kề 11–15 Phó Đức Chính), Phường Thuận Hóa, Thành phố Huế",
       "riverbank": "bo_nam",
       "display_zoom_tier": "zoom_2 (z14.5-18.0)",
-      "coordinates": null,
-      "geometry_ref": "",
+      "coordinates": [
+        107.59511,
+        16.46627
+      ],
+      "geometry_ref": "osm:node/4693154298",
       "operating_status": "dang_hoat_dong",
       "selection_reason": "Địa chỉ đặc sản Huế nổi bật ở Bờ Nam về bánh khoái, nem lụi, bánh bèo – nậm – lọc (giữ bản sắc Huế cho Mốc 2).",
       "source_urls": [
+        "https://vn.geoview.info/quan_hanh,4693154298n",
+        "https://en.wikivoyage.org/wiki/Hue",
         "https://huetripo.hue.gov.vn/co-so-an-uong",
-        "https://khamphahue.com.vn/Du-lich/Ban-%C4%91o-so/WC-cong-cong/tid/Top-10-quan-che-ngon-xu-Hue-thuc-khach-co-the-tham-khao-thuong-thuc.html/pid/16814/cid/598",
         "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/an-vat-hue.html"
       ],
       "checked_date": "2026-11-22",
-      "verification_status": "xac_minh_mot_phan",
+      "verification_status": "xac_minh_day_du_toa_do_osm",
       "logo_url": null,
-      "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo; đối chiếu số nhà liên thông 11 vs 13 vs 11–15 Phó Đức Chính tại thực địa.",
-      "usage_rights_note": "Thông tin từ cổng du lịch huetripo.hue.gov.vn & khamphahue.com.vn."
+      "missing_fields_note": "",
+      "usage_rights_note": "Thông tin từ huetripo.hue.gov.vn; tọa độ từ OSM node/4693154298 (ODbL, thuộc tập <100 đối tượng theo OSMF Substantial Guideline; bắt buộc ghi công © OpenStreetMap contributors).",
+      "id_status": "matched_exact_original_id",
+      "dish_tags": [
+        "banh_khoai",
+        "nem_lui",
+        "banh_beo_nam_loc"
+      ],
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế (huetripo.hue.gov.vn ghi 13 Phó Đức Chính)",
+      "floor_or_unit": null,
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Quán Hạnh 11 Phó Đức Chính, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/4693154298",
+      "map_reference_url": "https://vn.geoview.info/quan_hanh,4693154298n",
+      "address_coordinate_match_basis": "Khớp trực tiếp OSM node/4693154298 (name=Quán Hạnh, addr:housenumber=11, addr:street=Phó Đức Chính), đối chiếu độc lập với Wikivoyage chỉ lệch 16,3 m."
     },
     {
       "id": "hue-z2-qa-bun-bo-me-keo",
@@ -790,6 +1104,213 @@
       "logo_url": null,
       "missing_fields_note": "Thiếu tọa độ WGS 84 tự đo trong kiệt 7 Ưng Bình (tránh nguồn thứ cấp ghi chung chung là đường Hàn Mặc Tử).",
       "usage_rights_note": "Thông tin địa điểm công cộng từ báo chí & cẩm nang du lịch."
+    },
+    {
+      "id": "hue-z2-qa-texas-chicken-aeon",
+      "id_status": "new_verified_branch_optional_append",
+      "name_standard": "Texas Chicken – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "dish_tags": [],
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Texas Chicken – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận TEXAS CHICKEN tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Texas Chicken."
+    },
+    {
+      "id": "hue-z2-qa-popeyes-aeon",
+      "id_status": "new_verified_branch_optional_append",
+      "name_standard": "Popeyes – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "dish_tags": [],
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Popeyes – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận POPEYES tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Popeyes."
+    },
+    {
+      "id": "hue-z2-qa-pizza-company-aeon",
+      "id_status": "new_verified_branch_optional_append",
+      "name_standard": "The Pizza Company – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "pizza"
+      ],
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "The Pizza Company – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/danh-muc-cua-hang/the-pizza-company",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận THE PIZZA COMPANY tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo The Pizza Company."
+    },
+    {
+      "id": "hue-z2-qa-pizza-hut-aeon",
+      "id_status": "new_verified_branch_optional_append",
+      "name_standard": "Pizza Hut – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "pizza"
+      ],
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Pizza Hut – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận Pizza Hut tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Pizza Hut."
+    },
+    {
+      "id": "hue-z2-qa-dominos-pizza-aeon",
+      "id_status": "new_verified_branch_optional_append",
+      "name_standard": "Domino's Pizza – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "pizza"
+      ],
+      "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 3",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_2 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Domino's Pizza – AEON MALL Huế, 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận Domino's Pizza tại Tầng 3 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "missing_fields_note": "Dùng điểm đại diện tòa nhà AEON MALL Huế (OSM way/1152318720); hiển thị theo ghim chung cụm TTTM.",
+      "usage_rights_note": "Xác nhận từ hue.aeonmall-vietnam.com; tọa độ tòa nhà OSM way/1152318720 (ODbL). Không dùng logo Domino's Pizza."
     }
   ]
 }

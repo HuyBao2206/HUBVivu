@@ -1,0 +1,613 @@
+[
+  {
+    "id": "hue-z2-cf-starbucks-song-huong",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Starbucks Sông Hương",
+    "category_l1": "ca_phe",
+    "address_or_location": "Công viên 3/2, đường Lê Lợi (Tầng trệt Nhà hàng nổi Sông Hương, số 32 Lê Lợi), Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/12622178801",
+    "reason_code": "osm_node_inaccessible_and_riverbank_conflict_risk",
+    "issue_summary": "Địa chỉ chính thức tại Bờ Nam (Công viên 3/2, 32 Lê Lợi) nhưng nút OSM node/12622178801 (Starbucks Hué) bị chặn truy xuất tọa độ trên GeoView và xuất hiện trong danh sách lân cận đường Trần Hưng Đạo (Bờ Bắc) — nguy cơ lệch bờ sông.",
+    "source_urls": [
+      "https://www.starbucks.vn/store-locator/",
+      "https://huetripo.hue.gov.vn/co-so-an-uong",
+      "https://vn.geoview.info/tran_hung_ao,631854509w"
+    ],
+    "next_action": "Kiểm tra trực tiếp tọa độ OSM node/12622178801 trên openstreetmap.org xem có đúng vị trí Nhà hàng nổi Sông Hương (Bờ Nam) hay không trước khi mở ghim.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-cf-cong-ben-nghe",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Cộng Cà Phê – 22 Bến Nghé",
+    "category_l1": "ca_phe",
+    "address_or_location": "Số 22 Bến Nghé, Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "osm_node_inaccessible",
+    "issue_summary": "Xác minh địa chỉ 22 Bến Nghé, Phường Thuận Hóa và hiện diện khu Phú Hội trên GeoView nhưng trang chi tiết nút OSM bị chặn, chưa lấy được node ID và tọa độ.",
+    "source_urls": [
+      "https://sinhnhat.congcaphe.com/",
+      "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/cong-ca-phe-729214",
+      "https://vn.geoview.info/line_3_direction_to_beach,9878274518n"
+    ],
+    "next_action": "Truy vấn Overpass API trên đường Bến Nghé (Huế) để lấy OSM node ID và tọa độ chính xác.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-cf-highlands-27-le-huan",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Highlands Coffee – 27 Lê Huân",
+    "category_l1": "ca_phe",
+    "address_or_location": "Số 27 Lê Huân, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Thuận Hòa, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "no_osm_coordinate_found",
+    "issue_summary": "Có hồ sơ trên huetripo.hue.gov.vn nhưng thiếu tọa độ; chưa tìm thấy nút OSM khớp 27 Lê Huân tại Huế (tránh nhầm Highlands Coffee đường Lê Huân ở TP. Vinh).",
+    "source_urls": [
+      "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/highlands-coffee-27-le-huan-119916"
+    ],
+    "next_action": "Xác minh tọa độ 27 Lê Huân (gần Kinh Thành Huế) qua Overpass API hoặc khảo sát thực địa.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-cf-trung-nguyen-27-duy-tan",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Trung Nguyên E-Coffee – 27 Duy Tân",
+    "category_l1": "ca_phe",
+    "address_or_location": "Số 27 Duy Tân, Phường An Cựu, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "not_verified_in_hue_03_missing_coordinate",
+    "issue_summary": "Chưa có tọa độ OSM mở và chưa xác minh lại tình trạng hoạt động thực địa năm 2026.",
+    "source_urls": [
+      "https://trungnguyenecoffee.com/store-ecoffee/",
+      "https://trungnguyenlegend.com/store-finder/"
+    ],
+    "next_action": "Kiểm tra tình trạng hoạt động năm 2026 và truy vấn tọa độ OSM trên đường Duy Tân.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-cf-ca-phe-muoi-142-dtt",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Cà Phê Muối – 142 Đặng Thái Thân",
+    "category_l1": "ca_phe",
+    "proposed_dish_tags": [
+      "ca_phe_muoi"
+    ],
+    "address_or_location": "Số 142 Đặng Thái Thân, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Thuận Hòa, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/6403425082",
+    "reason_code": "osm_node_inaccessible",
+    "issue_summary": "Địa chỉ 142 Đặng Thái Thân, Phường Phú Xuân đã xác nhận trên hue.gov.vn và có OSM node/6403425082 nhưng trang GeoView không trả về tọa độ.",
+    "source_urls": [
+      "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/CA-PHE-MUOI-DANG-THAI-THAN-Ghe-tham-noi-khai-sinh-cafe-muoi-331533",
+      "https://vn.geoview.info/ca_phe_muoi,6403425082n"
+    ],
+    "next_action": "Đọc trực tiếp tọa độ OSM node/6403425082 qua Overpass API.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-cf-katinat-le-loi",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Katinat Huế (Lê Lợi) [TẠM HOÃN XÁC MINH]",
+    "category_l1": "ca_phe",
+    "address_or_location": "Số 5 Lê Lợi (hoặc 112 Lê Lợi), Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "legal_demolition_risk_and_address_conflict",
+    "issue_summary": "Cơ sở Katinat số 5 Lê Lợi (dự án Huế Times Square, 236 m²) bị xử phạt xây dựng sai phép và hoàn thiện phương án cưỡng chế tháo dỡ tháng 08/2026; nguồn review khác ghi 112 Lê Lợi. Chưa có tọa độ OSM xác minh.",
+    "source_urls": [
+      "https://dantri.com.vn/thoi-su/quang-truong-thoi-dai-ben-song-huong-se-bi-cuong-che-cac-hang-muc-sai-pham-20260805151431174.htm",
+      "https://thanhnien.vn/se-thao-do-quan-ca-phe-va-cong-trinh-sai-phep-tai-du-an-hue-times-square-185260806105446155.htm",
+      "https://cautruongtien.vn/katinat-cafe-hue/"
+    ],
+    "next_action": "Xác minh tình trạng tồn tại thực tế và địa chỉ chính thức của Katinat cuối năm 2026 trước khi hiển thị.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-ts-phuc-long-nct",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Phúc Long Coffee & Tea – Nguyễn Công Trứ [THIẾU SỐ NHÀ]",
+    "category_l1": "tra_sua",
+    "address_or_location": "Đường Nguyễn Công Trứ, Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "street_name_only_no_exact_number_or_osm_pin",
+    "issue_summary": "Chỉ xác nhận hiện diện mặt phố đường Nguyễn Công Trứ (tránh nhầm 210 Nguyễn Công Trứ ở TP.HCM), chưa có số nhà cụ thể và tọa độ OSM.",
+    "source_urls": [
+      "https://www.momo.vn/page/9874620",
+      "https://znews.vn/thay-gi-khi-katinat-phe-la-banh-truong-tai-hue-post1604131.html"
+    ],
+    "next_action": "Xác minh số nhà chính xác trên đường Nguyễn Công Trứ và nút OSM tương ứng.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-ts-gong-cha-121-nh",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Gong Cha – 121 Nguyễn Huệ",
+    "category_l1": "tra_sua",
+    "address_or_location": "Số 121 Nguyễn Huệ, Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "no_osm_coordinate_found",
+    "issue_summary": "Địa chỉ 121 Nguyễn Huệ xác nhận qua cẩm nang AEON MALL Huế nhưng chưa tìm thấy nút OSM khớp tại Huế và cần đối chiếu thực địa.",
+    "source_urls": [
+      "https://gongcha.com.vn/",
+      "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html"
+    ],
+    "next_action": "Truy vấn Overpass API hoặc khảo sát thực địa số nhà 121 Nguyễn Huệ.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-ts-mixue-37-mtl",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Mixue – 37 Mai Thúc Loan",
+    "category_l1": "tra_sua",
+    "address_or_location": "Số 37 Mai Thúc Loan, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Đông Ba, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "not_verified_in_hue_03_missing_coordinate",
+    "issue_summary": "Thiếu tọa độ OSM xác minh và cần kiểm tra thực địa tình trạng hoạt động năm 2026.",
+    "source_urls": [
+      "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/mixue-mai-thuc-loan-952313",
+      "https://masothue.com/8662509812-001-ho-kinh-doanh-mixue"
+    ],
+    "next_action": "Kiểm tra hoạt động thực tế và lấy tọa độ OSM trên đường Mai Thúc Loan.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-ts-tocotoco-aeon",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "ToCoToCo – AEON MALL Huế [CẦN XÁC MINH SÀN]",
+    "category_l1": "tra_sua",
+    "address_or_location": "Tầng 3, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": "hue-z1-lm-aeon-mall",
+    "logo_url": null,
+    "known_osm_id": "way/1152318720",
+    "reason_code": "floor_map_conflict_not_on_ban_do_san",
+    "issue_summary": "Xuất hiện trong cẩm nang trà sữa và bài sự kiện trên hue.aeonmall-vietnam.com nhưng vắng tên trên bản trích xuất sơ đồ sàn chính thức ban-do-san; giữ trong pending để tránh hiển thị gian hàng đã rút.",
+    "source_urls": [
+      "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+      "https://hue.aeonmall-vietnam.com/su-kien/-vong-quay-tinh-yeu-muon-noi-doi-dieu-.html",
+      "https://hue.aeonmall-vietnam.com/ban-do-san"
+    ],
+    "next_action": "Kiểm tra trực tiếp gian hàng tại Tầng 3 AEON MALL Huế; nếu còn mở, chỉ cần gán tọa độ chung hue-z1-lm-aeon-mall ([107.61517, 16.45382]).",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-qa-gogi-go-hue",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "GoGi House – GO! Huế",
+    "category_l1": "quan_an",
+    "address_or_location": "TTTM GO! Huế, số 174 Bà Triệu, Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "reported_inactive_or_closed",
+    "issue_summary": "Trang ưu đãi chính thức của Golden Gate (offer.ggg.com.vn/gogi-tang-combo/, áp dụng tháng 03/2025) ghi rõ trạng thái 'Gogi House BigC Huế (dừng HĐ)'.",
+    "source_urls": [
+      "https://offer.ggg.com.vn/gogi-tang-combo/"
+    ],
+    "next_action": "Xác nhận đóng cửa vĩnh viễn tại GO! Huế để gỡ khỏi hue-zoom2-branches.json (chỉ giữ chi nhánh GoGi House AEON MALL Huế).",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-qa-jollibee-135-nt",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Jollibee – 135 Nguyễn Trãi",
+    "category_l1": "quan_an",
+    "address_or_location": "Số 135 Nguyễn Trãi, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Tây Lộc / Thuận Hòa, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "branch_and_coordinate_unverified",
+    "issue_summary": "Chưa xác minh được cửa hàng 135 Nguyễn Trãi trong danh sách cửa hàng help.jollibee.com.vn (chỉ trích xuất được Vincom Huế) và chưa có nút OSM khớp số nhà.",
+    "source_urls": [
+      "https://help.jollibee.com.vn/hc/vi/articles/14378093877775-Danh-s%C3%A1ch-c%E1%BB%ADa-h%C3%A0ng",
+      "https://jollibee.com.vn/dich-vu/kid-party/order-now"
+    ],
+    "next_action": "Kiểm tra tình trạng hoạt động thực tế của chi nhánh 135 Nguyễn Trãi và lấy tọa độ OSM trước khi mở ghim.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-qa-bun-bo-me-keo",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Bún bò Huế Mệ Kéo",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "bun_bo"
+    ],
+    "address_or_location": "Số 20 Bạch Đằng, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Gia Hội / Phú Cát, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "address_conflict_and_no_osm_coordinate",
+    "issue_summary": "Có sự khác biệt địa chỉ giữa 20 Bạch Đằng (nguồn ẩm thực phổ biến), 206A Kiệt 4 Chi Lăng (huetripo.hue.gov.vn) và Trần Cao Vân (Soha); chưa có nút OSM xác minh tọa độ.",
+    "source_urls": [
+      "https://www.gurutto-vietnam.com/report/267/",
+      "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/bun-bo-me-keo-264100",
+      "https://soha.vn/khong-phai-pho-banh-mi-mon-an-30-nghin-1-bat-nay-moi-la-huong-vi-viet-lot-top-ngon-nhat-the-gioi-198250511185745434.htm"
+    ],
+    "next_action": "Xác minh địa chỉ hiện tại của Bún bò Mệ Kéo (và bổ sung các quán bún bò chuẩn khác trên OSM) để kích hoạt bộ lọc bun_bo ở HUE-04.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z2-qa-com-hen-hoa-dong",
+    "in_original_z2_file": true,
+    "target_zoom": 2,
+    "name_standard": "Cơm hến Hoa Đông",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "com_hen",
+      "banh_beo_nam_loc"
+    ],
+    "address_or_location": "Số 64 Kiệt 7 Ưng Bình (Cồn Hến), Phường Vỹ Dạ, Thành phố Huế",
+    "riverbank": "giua_song",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/7223176485",
+    "reason_code": "osm_node_inaccessible",
+    "issue_summary": "Đã định danh được OSM node/7223176485 (Cơm hến Hoa Đông, gần đường Ưng Bình) nhưng trang GeoView bị chặn không trả về tọa độ số và thẻ số nhà chi tiết.",
+    "source_urls": [
+      "https://vn.geoview.info/com_hen_hoa_ong,7223176485n",
+      "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/com-hue.html",
+      "https://queenbus.com.vn/cam-nang-tham-quan-dai-noi-hue"
+    ],
+    "next_action": "Ưu tiên số 1 đợt HUE-04: đọc trực tiếp tọa độ OSM node/7223176485 qua Overpass API để mở khóa vùng giua_song (Cồn Hến) và bộ lọc com_hen.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z1-lm-go-hue",
+    "in_original_z2_file": false,
+    "target_zoom": 2,
+    "name_standard": "Trung tâm Thương mại GO! Huế (Big C Huế cũ)",
+    "category_l1": null,
+    "address_or_location": "Số 174 Bà Triệu, Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội / Phú Nhuận (nhiều nguồn cũ ghi nhầm 181 Bà Triệu)",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "missing_verified_osm_building_way",
+    "issue_summary": "Đã thống nhất địa chỉ 174 Bà Triệu, Phường Thuận Hóa nhưng chưa truy xuất được đối tượng OSM way/node trực tiếp (Wikimapia ghi 16°27′37″N 107°35′57″E, chưa đối chiếu đa giác OSM).",
+    "source_urls": [
+      "https://sieuthi-go.vn/about-us/store/go-hue-17.html",
+      "https://huetripo.hue.gov.vn/co-so-dich-vu/trung-tam-thuong-mai/sieu-thi-go-hue-778466",
+      "http://wikimapia.org/13322558/vi/Si%C3%AAu-th%E1%BB%8B-Big-C-Phong-Ph%C3%BA-Plaza"
+    ],
+    "next_action": "Truy vấn Overpass API cho tòa nhà GO! Huế / Phong Phú Plaza 174 Bà Triệu để cấp ghim building_representative.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z2-kfc-go-hue",
+    "in_original_z2_file": false,
+    "target_zoom": 2,
+    "name_standard": "KFC – GO! Huế",
+    "category_l1": "quan_an",
+    "address_or_location": "TTTM GO! Huế, 174 Bà Triệu, Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "waiting_for_go_hue_building_pin",
+    "issue_summary": "Xác minh chi nhánh tại GO! Huế nhưng đang chờ ghim tòa nhà OSM cho GO! Huế.",
+    "source_urls": [
+      "https://www.momo.vn/page/9867745"
+    ],
+    "next_action": "Mở khóa đồng loạt ngay sau khi có tọa độ OSM của GO! Huế.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z2-pizza-hut-go-hue",
+    "in_original_z2_file": false,
+    "target_zoom": 2,
+    "name_standard": "Pizza Hut – GO! Huế",
+    "category_l1": "quan_an",
+    "address_or_location": "TTTM GO! Huế, 174 Bà Triệu, Phường Thuận Hóa, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "waiting_for_go_hue_building_pin",
+    "issue_summary": "Xác minh Pizza Hut GO! Huế (174 Bà Triệu, Phường Thuận Hóa) trên huetripo.hue.gov.vn nhưng đang chờ ghim tòa nhà OSM cho GO! Huế.",
+    "source_urls": [
+      "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/lavie-concept-more-than-coffee-576869"
+    ],
+    "next_action": "Mở khóa đồng loạt ngay sau khi có tọa độ OSM của GO! Huế.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z2-kichi-kichi-aeon",
+    "in_original_z2_file": false,
+    "target_zoom": 2,
+    "name_standard": "Kichi-Kichi – AEON MALL Huế [CẦN XÁC MINH SÀN]",
+    "category_l1": "quan_an",
+    "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": "hue-z1-lm-aeon-mall",
+    "logo_url": null,
+    "known_osm_id": "way/1152318720",
+    "reason_code": "floor_map_conflict_not_on_ban_do_san",
+    "issue_summary": "Xác nhận trên cổng ưu đãi Golden Gate và cẩm nang AEON MALL Huế nhưng vắng tên trên bản trích xuất ban-do-san; giữ trong pending để kiểm chứng sàn.",
+    "source_urls": [
+      "https://offer.ggg.com.vn/kichi_4_tang_1/",
+      "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/aeon-mall-hue-co-gi-an.html",
+      "https://hue.aeonmall-vietnam.com/ban-do-san"
+    ],
+    "next_action": "Kiểm tra trực tiếp tại Tầng 4 AEON MALL Huế.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-ca-phe-muoi-nlb",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Cà Phê Muối – 10 Nguyễn Lương Bằng",
+    "category_l1": "ca_phe",
+    "proposed_dish_tags": [
+      "ca_phe_muoi"
+    ],
+    "address_or_location": "10 Nguyễn Lương Bằng, Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội / Phú Nhuận, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/6305298885",
+    "reason_code": "house_number_conflict_osm_vs_official",
+    "issue_summary": "Mâu thuẫn số nhà giữa OSM node/6305298885 (ghi 15 Nguyễn Lương Bằng, tọa độ [107.59876, 16.46259]) và nguồn chính thức hue.gov.vn / Khám Phá Huế / AEON MALL Huế (đều ghi 10 Nguyễn Lương Bằng).",
+    "source_urls": [
+      "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/CA-PHE-MUOI-DANG-THAI-THAN-Ghe-tham-noi-khai-sinh-cafe-muoi-331533",
+      "https://khamphahue.com.vn/Du-lich/Chi-tiet/tid/Top-05-quan-ca-phe-muoi-ngon-o-Hue.html/pid/15312/cid/598",
+      "https://vn.geoview.info/cafe_muoi,6305298885n"
+    ],
+    "next_action": "Kiểm tra thực địa số 10 Nguyễn Lương Bằng trước khi quyết định dùng hay chỉnh sửa tọa độ node/6305298885.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-banh-khoai-lac-thien",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Bánh khoái Lạc Thiện",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "banh_khoai",
+      "nem_lui",
+      "banh_beo_nam_loc"
+    ],
+    "address_or_location": "6 Đinh Tiên Hoàng, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hòa / Đông Ba, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/4836391621",
+    "reason_code": "osm_node_inaccessible",
+    "issue_summary": "Đã xác minh địa chỉ 6 Đinh Tiên Hoàng trên huetripo.hue.gov.vn và tìm thấy OSM node/4836391621 nhưng trang GeoView bị chặn không trả về tọa độ.",
+    "source_urls": [
+      "https://huetripo.hue.gov.vn/co-so-an-uong",
+      "https://vn.geoview.info/lac_thien,4836391621n"
+    ],
+    "next_action": "Đọc trực tiếp tọa độ OSM node/4836391621 qua Overpass API.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-bun-mam-nem-o-be",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Bún Mắm Nêm O Bê",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "bun_mam_nem"
+    ],
+    "address_or_location": "01 Phan Đăng Lưu, Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hòa / Đông Ba, Thành phố Huế",
+    "riverbank": "bo_bac",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/12633494662",
+    "reason_code": "osm_node_not_yet_fetched",
+    "issue_summary": "Đã xác minh địa chỉ 01 Phan Đăng Lưu và định danh OSM node/12633494662 nhưng chưa truy xuất được tọa độ số.",
+    "source_urls": [
+      "https://vn.geoview.info/tran_hung_ao,631854509w",
+      "https://mia.vn/cam-nang-du-lich/huong-vi-bun-mam-nem-co-mot-khong-hai-cua-xu-hue-mong-mo-2415"
+    ],
+    "next_action": "Đọc trực tiếp tọa độ OSM node/12633494662 qua Overpass API để mở khóa thẻ món bun_mam_nem.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-banh-canh-nam-pho-thuy",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Bánh canh Nam Phổ Thúy",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "banh_canh"
+    ],
+    "address_or_location": "16 Phạm Hồng Thái, Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Vĩnh Ninh, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "osm_node_id_and_coordinate_not_extracted",
+    "issue_summary": "Xác minh địa chỉ 16 Phạm Hồng Thái và xuất hiện lân cận OSM khu ĐH Sư phạm Huế nhưng chưa truy xuất được node ID và tọa độ trực tiếp.",
+    "source_urls": [
+      "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/an-dem-hue.html",
+      "https://vn.geoview.info/truong_ai_hoc_su_pham_ai_hoc_hue,21033691531w"
+    ],
+    "next_action": "Truy vấn Overpass API trên đường Phạm Hồng Thái để lấy tọa độ OSM và mở khóa bộ lọc banh_canh.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-banh-ep-nha-su",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Tiệm bánh ép Nhà Su",
+    "category_l1": "quan_an",
+    "proposed_dish_tags": [
+      "banh_ep"
+    ],
+    "address_or_location": "36 Huỳnh Tấn Phát, Thành phố Huế (cần xác minh Phường An Cựu hoặc Phường Vỹ Dạ)",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": null,
+    "reason_code": "osm_node_id_and_ward_unverified",
+    "issue_summary": "Xác minh địa chỉ 36 Huỳnh Tấn Phát trên huetripo.hue.gov.vn nhưng chưa truy xuất được node ID, tọa độ số và phường mới chính xác sau 01/07/2025.",
+    "source_urls": [
+      "https://huetripo.hue.gov.vn/co-so-an-uong/nha-hang/nha-hang-hannam-499390",
+      "https://vn.geoview.info/uong_ang_van_ngu,11102511392w"
+    ],
+    "next_action": "Truy vấn Overpass API khu Huỳnh Tấn Phát / Đặng Văn Ngữ để mở khóa bộ lọc banh_ep.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "pending-z3-maison-marou-hue",
+    "in_original_z2_file": false,
+    "target_zoom": 3,
+    "name_standard": "Maison Marou Huế",
+    "category_l1": "ca_phe",
+    "proposed_dish_tags": [],
+    "address_or_location": "27 Bến Nghé, Phường Thuận Hóa, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+    "riverbank": "bo_nam",
+    "coordinates": null,
+    "coordinate_type": null,
+    "shared_pin_group": null,
+    "logo_url": null,
+    "known_osm_id": "node/12240167287",
+    "reason_code": "osm_node_inaccessible",
+    "issue_summary": "Đã xác minh OSM node/12240167287 khớp đúng 27 Bến Nghé, Phú Hội (nay Phường Thuận Hóa) nhưng trang GeoView bị chặn không trả về tọa độ số.",
+    "source_urls": [
+      "https://vn.geoview.info/maison_marou_hue,12240167287n"
+    ],
+    "next_action": "Đọc trực tiếp tọa độ OSM node/12240167287 qua Overpass API.",
+    "checked_date": "2026-11-22"
+  },
+  {
+    "id": "hue-z3-qa-ngu-thuyen",
+    "name_standard": "Nhà hàng Ngự Thuyền",
+    "alt_names": [],
+    "object_type": "diem_quan_dia_phuong",
+    "category_l1": "quan_an",
+    "dish_tags": [],
+    "address_or_location": "Đường Lê Duẩn (khu vực bến Nghênh Lương Đình), Phường Phú Xuân, Thành phố Huế",
+    "legacy_address_note": "Trước 01/07/2025: Phường Phú Thuận / Thuận Hòa, Thành phố Huế (khuyến nghị xác minh lại tình trạng mở cửa thực tế năm 2026)",
+    "floor_or_unit": null,
+    "riverbank": "bo_bac",
+    "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+    "coordinates": [
+      107.581556,
+      16.4645
+    ],
+    "coordinate_type": "exact_poi",
+    "shared_pin_group": null,
+    "geometry_ref": "",
+    "operating_status": "can_xac_minh_thuc_dia_2026",
+    "logo_url": null,
+    "google_maps_action": {
+      "mode": "external_search_link_only",
+      "query": "Nhà hàng Ngự Thuyền, Đường Lê Duẩn (khu vực bến Nghênh Lương Đình), Phường Phú Xuân, Thành phố Huế"
+    },
+    "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+    "coordinate_source_license": "CC-BY-SA-4.0",
+    "coordinate_source_url": "https://de.wikivoyage.org/wiki/Hu%E1%BA%BF",
+    "map_reference_url": "https://de.wikivoyage.org/wiki/Hu%E1%BA%BF",
+    "source_urls": [
+      "https://de.wikivoyage.org/wiki/Hu%E1%BA%BF"
+    ],
+    "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage tiếng Đức (Ngự Thuyền, Lê Duẩn, Phú Thuận), kiểm tra khoảng cách chỉ cách Nghênh Lương Đình 34,2 m ven Bờ Bắc sông Hương; khuyến nghị xác minh lại hiện trạng hoạt động năm 2026.",
+    "checked_date": "2026-11-22",
+    "verification_status": "xac_minh_day_du",
+    "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu.",
+    "reason_code": "current_operation_unconfirmed"
+  }
+]

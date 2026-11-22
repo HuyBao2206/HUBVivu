@@ -1,0 +1,1043 @@
+{
+  "records": [
+    {
+      "id": "hue-z3-cf-tan-86-dth",
+      "name_standard": "tan. (Tân Cafe – 86 Đinh Tiên Hoàng)",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "ca_phe",
+      "dish_tags": [
+        "ca_phe_muoi",
+        "ca_phe_dac_san"
+      ],
+      "address_or_location": "86 Đinh Tiên Hoàng, Phường Phú Xuân, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Thuận Thành / Phú Hậu, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.58156,
+        16.47331
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "tan. (Tân Cafe – 86 Đinh Tiên Hoàng), 86 Đinh Tiên Hoàng, Phường Phú Xuân, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/11893036369",
+      "map_reference_url": "https://vn.geoview.info/tan,11893036369n",
+      "source_urls": [
+        "https://tan-co.vn/",
+        "https://tan-co.vn/about-us/",
+        "https://vn.geoview.info/tan,11893036369n",
+        "https://www.ivivu.com/blog/2026/06/kham-pha-10-quan-ca-phe-muoi-o-hue-ngon-duoc-nhieu-nguoi-yeu-thich/"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp OSM node/11893036369 (name=tan., addr:housenumber=86, addr:street=Đinh Tiên Hoàng, website=https://tan-co.vn/, check_date=2025-04-24) với trang chủ chính thức tan-co.vn.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-banh-khoai-hong-mai",
+      "name_standard": "Bánh khoái Hồng Mai",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "banh_khoai",
+        "nem_lui",
+        "banh_beo_nam_loc",
+        "bun_thit_nuong"
+      ],
+      "address_or_location": "110 Đinh Tiên Hoàng, Phường Phú Xuân, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hậu / Thuận Thành, Thành phố Huế (góc Đinh Tiên Hoàng – Nguyễn Biểu)",
+      "floor_or_unit": null,
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.58052,
+        16.474665
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Bánh khoái Hồng Mai, 110 Đinh Tiên Hoàng, Phường Phú Xuân, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/banh-khoai-hong-mai-802985",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/banh-khoai-hue.html",
+        "https://khamphahue.com.vn/Du-lich/Chi-tiet/tid/Tong-hop-cac-quan-banh-khoai-Hue-ngon-noi-tieng.html/pid/1097/cid/328",
+        "https://en.wikivoyage.org/wiki/Hue"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng tên quán và địa chỉ góc 110 Đinh Tiên Hoàng – Nguyễn Biểu, đối chiếu thành công với huetripo.hue.gov.vn và khamphahue.com.vn.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-cf-gins-garden-78-tt",
+      "name_standard": "Café Gin's Garden",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "ca_phe",
+      "dish_tags": [],
+      "address_or_location": "78 Tuệ Tĩnh, Phường Phú Xuân, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Thuận Hòa, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.57393,
+        16.47196
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Café Gin's Garden, 78 Tuệ Tĩnh, Phường Phú Xuân, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/10672532605",
+      "map_reference_url": "https://vn.geoview.info/cafe_gins_garden,10672532605n",
+      "source_urls": [
+        "https://vn.geoview.info/cafe_gins_garden,10672532605n"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp OSM node/10672532605 (name=Café Gin's Garden, addr:housenumber=78, addr:street=Tuệ Tĩnh, amenity=cafe, opening_hours=Su-Sa 07:00-20:00) trong khu vực Kinh Thành Bờ Bắc.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-com-chay-nhat-le",
+      "name_standard": "Quán Cơm Chay Nhật Lệ",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "mon_chay"
+      ],
+      "address_or_location": "85 Nhật Lệ, Phường Phú Xuân, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Thuận Thành, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_bac",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.577546,
+        16.475301
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Quán Cơm Chay Nhật Lệ, 85 Nhật Lệ, Phường Phú Xuân, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://aivivu.com/bai-viet/top-12-mon-an-ngon-cua-hue-an-la-me"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng số nhà 85 Nhật Lệ trong Kinh Thành (Bờ Bắc), đối chiếu chéo với danh mục ẩm thực Huế.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-com-chay-lien-hoa",
+      "name_standard": "Cơm Chay Liên Hoa",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "mon_chay",
+        "che_hue"
+      ],
+      "address_or_location": "03 Lê Quý Đôn, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Nhuận / Phú Hội, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.597214,
+        16.464974
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Cơm Chay Liên Hoa, 03 Lê Quý Đôn, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://khamphahue.com.vn/Du-lich/Chi-tiet/tid/Quan-chay-Lien-Hoa.html/pid/8082/cid/54",
+        "https://laque.vn/diem-danh-cac-quan-com-chay-hue-ngon-ban-can-biet/",
+        "https://huongrivercruises.com/an-trua-tai-hue/",
+        "https://en.wikivoyage.org/wiki/Hue"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng địa chỉ số 03 Lê Quý Đôn (khuôn viên chùa Liên Hoa), đối chiếu chéo trên khamphahue.com.vn và cẩm nang ẩm thực.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-chay-thanh-lieu",
+      "name_standard": "Quán Chay Thanh Liễu",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "mon_chay",
+        "banh_beo_nam_loc",
+        "lau_chay",
+        "che_hue"
+      ],
+      "address_or_location": "50 Nguyễn Công Trứ, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.597852,
+        16.470988
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Quán Chay Thanh Liễu, 50 Nguyễn Công Trứ, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-an/quan-chay-thanh-lieu-912311",
+        "https://kimtra.hue.gov.vn/Du-khach/Thong-tin-du-khach/Thong-tin-can-biet/tb/Quan-Chay-Thanh-Lieu-Diem-Hen-Thanh-Tinh-Giua-Long-Pho-Tay-Hue-557053?page=1",
+        "https://laque.vn/diem-danh-cac-quan-com-chay-hue-ngon-ban-can-biet/",
+        "https://en.wikivoyage.org/wiki/Hue"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 50 Nguyễn Công Trứ, đối chiếu chuẩn địa chỉ mới Phường Thuận Hóa và thực đơn (cơm chay, bánh nậm, bánh lọc, lẩu chay, chè) trên cổng huetripo.hue.gov.vn và kimtra.hue.gov.vn.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-com-chay-dieu-lac",
+      "name_standard": "Cơm Chay Diệu Lạc",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "mon_chay"
+      ],
+      "address_or_location": "01 Hàn Mặc Tử, Phường Vỹ Dạ, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Vỹ Dạ, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.595595,
+        16.474383
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Cơm Chay Diệu Lạc, 01 Hàn Mặc Tử, Phường Vỹ Dạ, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://laque.vn/diem-danh-cac-quan-com-chay-hue-ngon-ban-can-biet/",
+        "https://vn.geoview.info/kiet_64_nguyen_sinh_cung,11419754510w"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 01 Hàn Mặc Tử, Phường Vỹ Dạ (nằm phía Nam sông Hương, cách bờ sông khoảng 216 m).",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-com-hem-134",
+      "name_standard": "Cơm hẻm 134",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "com_hue"
+      ],
+      "address_or_location": "21/134 Bà Triệu, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội (giáp ranh Xuân Phú / Phường Vỹ Dạ trên trục Bà Triệu)",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.59943,
+        16.46306
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Cơm hẻm 134, 21/134 Bà Triệu, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/11829758971",
+      "map_reference_url": "https://vn.geoview.info/com_hem_134,11829758971n",
+      "source_urls": [
+        "https://vn.geoview.info/com_hem_134,11829758971n",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/com-hue.html",
+        "https://daivietourist.vn/quan-com-hue/"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp OSM node/11829758971 (name=Cơm hẻm 134, addr:housenumber=21/134, addr:street=Bà Triệu, opening_hours=Mo-Su 10:00-14:00) với cẩm nang ẩm thực AEON MALL Huế.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-family-home",
+      "name_standard": "Family Home Restaurant",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "com_hue"
+      ],
+      "address_or_location": "11 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội / Phú Nhuận, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.592838,
+        16.464526
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Family Home Restaurant, 11 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://vn.geoview.info/quan_hanh,4693154298n",
+        "https://khachsan.chudu24.com/ks.321.khach-san-ttc-imperial-hue.html"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 11 Kiệt 34 Nguyễn Tri Phương, đồng thời hiện diện trong danh sách lân cận OSM của Quán Hạnh.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-ninas-cafe",
+      "name_standard": "Nina's Cafe Restaurant",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "com_hue"
+      ],
+      "address_or_location": "16 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội / Phú Nhuận, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.592768,
+        16.464231
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Nina's Cafe Restaurant, 16 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://vn.geoview.info/quan_hanh,4693154298n",
+        "https://wanderlog.com/list/geoCategory/63329/best-new-restaurants-to-visit-in-hue"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 16 Kiệt 34 Nguyễn Tri Phương, đối chiếu hiện diện lân cận OSM.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-ong-tao",
+      "name_standard": "Nhà hàng Ông Táo",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "com_hue"
+      ],
+      "address_or_location": "31 Chu Văn An, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế (khu Phố Tây)",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.59581,
+        16.46932
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Nhà hàng Ông Táo, 31 Chu Văn An, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://wikidulich.com/du-lich-hue",
+        "https://bazantravel.com/du-lich-bui-hue-cam-nang-du-lich-can-biet/"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 31 Chu Văn An (khu Phố Tây, Phường Thuận Hóa), đối chiếu thực đơn món Huế truyền thống.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-la-carambole",
+      "name_standard": "La Carambole",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "am_thuc_au_a",
+        "pizza"
+      ],
+      "address_or_location": "19 Phạm Ngũ Lão, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế (khu Phố Tây)",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.595907,
+        16.469887
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "La Carambole, 19 Phạm Ngũ Lão, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://camnanghue.com/am-thuc",
+        "https://vn.geoview.info/binh_tran,11127296107n"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 19 Phạm Ngũ Lão, đối chiếu chéo với camnanghue.com và danh sách lân cận OSM khu Phố Tây.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-hot-tuna",
+      "name_standard": "Hot Tuna",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "am_thuc_au_a"
+      ],
+      "address_or_location": "37 Võ Thị Sáu, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế (góc Võ Thị Sáu – Chu Văn An)",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.595591,
+        16.469408
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Hot Tuna, 37 Võ Thị Sáu, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://camnanghue.com/am-thuc",
+        "https://vn.geoview.info/banana_mango,4794363322n"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng góc 37 Võ Thị Sáu – Chu Văn An, đối chiếu với camnanghue.com và danh sách lân cận OSM.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-take-japanese",
+      "name_standard": "Ta.ke Japanese Restaurant",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "am_thuc_nhat"
+      ],
+      "address_or_location": "34 Trần Cao Vân, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.591993,
+        16.465758
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Ta.ke Japanese Restaurant, 34 Trần Cao Vân, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://wanderlog.com/list/geoCategory/57974/best-spots-for-lunch-in-hue"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 34 Trần Cao Vân, đối chiếu địa chỉ cập nhật Phường Thuận Hóa.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qa-garden-riverside",
+      "name_standard": "Garden Riverside Bar Restaurant",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "quan_an",
+      "dish_tags": [
+        "com_hue"
+      ],
+      "address_or_location": "1 Kiệt 7 Nguyễn Công Trứ, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.59549,
+        16.47225
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Garden Riverside Bar Restaurant, 1 Kiệt 7 Nguyễn Công Trứ, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/5840157894",
+      "map_reference_url": "https://mapcarta.com/N5840157894",
+      "source_urls": [
+        "https://mapcarta.com/N5840157894",
+        "https://en.wikivoyage.org/wiki/Hue"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp OSM node/5840157894 qua Mapcarta (1 Lane 7 Nguyễn Công Trứ, cuisine=local;diner), đối chiếu độc lập với Wikivoyage chỉ lệch 11,0 m.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-cf-thu-wheels",
+      "name_standard": "Cafe on Thu Wheels",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "ca_phe",
+      "dish_tags": [],
+      "address_or_location": "3 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Hội / Phú Nhuận, Thành phố Huế",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.592724,
+        16.464745
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Cafe on Thu Wheels, 3 Kiệt 34 Nguyễn Tri Phương, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "Wikivoyage (CC BY-SA 4.0)",
+      "coordinate_source_license": "CC-BY-SA-4.0",
+      "coordinate_source_url": "https://en.wikivoyage.org/wiki/Hue",
+      "map_reference_url": "https://en.wikivoyage.org/wiki/Hue",
+      "source_urls": [
+        "https://en.wikivoyage.org/wiki/Hue",
+        "https://huetripo.hue.gov.vn/co-so-an-uong/quan-ca-phetra/cafe-on-thu-wheels-953253",
+        "https://vn.geoview.info/truong_ai_hoc_su_pham_ai_hoc_hue,21033691531w"
+      ],
+      "address_coordinate_match_basis": "Tọa độ trực tiếp từ Wikivoyage khớp đúng 3 Kiệt 34 Nguyễn Tri Phương, đối chiếu hiện diện trên huetripo.hue.gov.vn.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: Wikivoyage (CC BY-SA 4.0) (CC-BY-SA-4.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-ts-hallo-bubble-tea",
+      "name_standard": "Hallo Bubble Tea Coffee",
+      "alt_names": [],
+      "object_type": "diem_quan_dia_phuong",
+      "category_l1": "tra_sua",
+      "dish_tags": [],
+      "address_or_location": "Đường Hai Bà Trưng, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Vĩnh Ninh, Thành phố Huế (gần Bệnh viện Trung ương Huế; nên bổ sung số nhà thực địa)",
+      "floor_or_unit": null,
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (z15.5-18.0)",
+      "coordinates": [
+        107.5891,
+        16.46063
+      ],
+      "coordinate_type": "exact_poi",
+      "shared_pin_group": null,
+      "geometry_ref": "",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Hallo Bubble Tea Coffee, Đường Hai Bà Trưng, Phường Thuận Hóa, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/node/4764017924",
+      "map_reference_url": "https://vn.geoview.info/hallo_bubble_tea_coffee,4764017924n",
+      "source_urls": [
+        "https://vn.geoview.info/hallo_bubble_tea_coffee,4764017924n"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp nút POI riêng OSM node/4764017924 (name=Hallo Bubble Tea Coffee, addr:street=Hai Bà Trưng, cuisine=coffee_shop;tea, opening_hours=Mo-Su 09:00-21:00); không phải tọa độ tâm đường.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_day_du",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-ts-kiot-tra-aeon",
+      "name_standard": "Ki-ốt Trà – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "tra_sua",
+      "dish_tags": [],
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 4",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Ki-ốt Trà – AEON MALL Huế, Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/cam-nang-aeon-mall-hue/tra-sua-hue.html",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận KI-ỐT TRÀ tại Tầng 4 trên sơ đồ sàn và cẩm nang trà sữa chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-qn-dao-matcha-aeon",
+      "name_standard": "Đảo Matcha – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "quan_nuoc",
+      "dish_tags": [
+        "matcha"
+      ],
+      "address_or_location": "Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 4",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Đảo Matcha – AEON MALL Huế, Tầng 4, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận ĐẢO MATCHA tại Tầng 4 trên sơ đồ sàn chính thức AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    },
+    {
+      "id": "hue-z3-cf-anh-kafe-aeon",
+      "name_standard": "Anh Kafe – AEON MALL Huế",
+      "alt_names": [],
+      "object_type": "diem_chi_nhanh_trong_tttm",
+      "category_l1": "ca_phe",
+      "dish_tags": [],
+      "address_or_location": "Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "floor_or_unit": "Tầng 1",
+      "riverbank": "bo_nam",
+      "display_zoom_tier": "zoom_3 (gom nhóm trong hue-z1-lm-aeon-mall)",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "geometry_ref": "parent_building: hue-z1-lm-aeon-mall",
+      "operating_status": "dang_hoat_dong",
+      "logo_url": null,
+      "google_maps_action": {
+        "mode": "external_search_link_only",
+        "query": "Anh Kafe – AEON MALL Huế, Tầng 1, TTTM AEON MALL Huế, số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế"
+      },
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://hue.aeonmall-vietnam.com/su-kien/-aeon-mall-hue-tang-10-000-voucher-mien-phi-tri-an-khach-hang-than-thiet-.html",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Xác nhận ANH KAFE tại Tầng 1 trên sơ đồ sàn chính thức và danh sách voucher AEON MALL Huế; dùng chung ghim tòa nhà OSM way/1152318720.",
+      "checked_date": "2026-11-22",
+      "verification_status": "xac_minh_thong_tin_toa_do_toa_nha",
+      "usage_rights_note": "Nguồn tọa độ: OpenStreetMap (ODbL-1.0). Không sao chép đánh giá hay tọa độ từ Google Maps; không dùng logo thương hiệu."
+    }
+  ],
+  "shared_pin_groups": [
+    {
+      "shared_pin_group": "hue-z1-lm-aeon-mall",
+      "name_standard": "AEON MALL Huế",
+      "status": "new_pin_in_hue_03",
+      "address_or_location": "Số 8 Võ Nguyên Giáp, Phường An Cựu, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường An Đông, Thành phố Huế",
+      "riverbank": "bo_nam",
+      "coordinates": [
+        107.61517,
+        16.45382
+      ],
+      "coordinate_type": "building_representative",
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1152318720",
+      "map_reference_url": "https://mapcarta.com/W1152318720",
+      "source_urls": [
+        "https://aeonmall-vietnam.com/vi/aeon-mall-hue/",
+        "https://hue.aeonmall-vietnam.com/ban-do-san",
+        "https://commons.wikimedia.org/wiki/File:Amee_2024.jpg",
+        "https://mapcarta.com/W1152318720"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp đối tượng OSM way/1152318720 (ÆON MALL Huế, landuse=retail) qua Mapcarta; đối chiếu chéo ảnh gắn tọa độ Wikimedia Commons tại AEON MALL Huế lệch 33,0 m trong cùng khuôn viên tòa nhà.",
+      "checked_date": "2026-11-22"
+    },
+    {
+      "shared_pin_group": "hue-z1-lm-vincom-plaza",
+      "name_standard": "Vincom Plaza Huế",
+      "status": "existing_pin_metadata_standardized",
+      "address_or_location": "Số 50A Hùng Vương, Phường Thuận Hóa, Thành phố Huế",
+      "legacy_address_note": "Trước 01/07/2025: Phường Phú Nhuận, Thành phố Huế",
+      "riverbank": "bo_nam",
+      "coordinates": [
+        107.59426,
+        16.46296
+      ],
+      "coordinate_type": "building_representative",
+      "coordinate_source_provider": "OpenStreetMap",
+      "coordinate_source_license": "ODbL-1.0",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/749331141",
+      "map_reference_url": "https://mapcarta.com/W749331141",
+      "source_urls": [
+        "https://vincom.com.vn/vincom-plaza-hue",
+        "https://hue.gov.vn/Du-khach/Thong-tin-du-khach/Kham-pha-Hue/tb/Trung-tam-thuong-mai-Vincom-Plaza-418221",
+        "https://mapcarta.com/W749331141"
+      ],
+      "address_coordinate_match_basis": "Khớp trực tiếp đối tượng OSM way/749331141 (Vincom Plaza Huế) tại ngã 6 Hùng Vương; địa chỉ đã xác nhận cập nhật Phường Thuận Hóa trên vincom.com.vn và hue.gov.vn.",
+      "checked_date": "2026-11-22"
+    }
+  ],
+  "category_l2": [
+    {
+      "id": "com_hue",
+      "label": "Cơm Huế & món truyền thống",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 5,
+      "zoom2_count": 0,
+      "zoom3_count": 5
+    },
+    {
+      "id": "mon_chay",
+      "label": "Món chay Huế",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 4,
+      "zoom2_count": 0,
+      "zoom3_count": 4
+    },
+    {
+      "id": "banh_beo_nam_loc",
+      "label": "Bánh bèo – nậm – lọc",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 3,
+      "zoom2_count": 1,
+      "zoom3_count": 2
+    },
+    {
+      "id": "am_thuc_au_a",
+      "label": "Ẩm thực Âu – Á",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 2,
+      "zoom2_count": 0,
+      "zoom3_count": 2
+    },
+    {
+      "id": "banh_khoai",
+      "label": "Bánh khoái",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 2,
+      "zoom2_count": 1,
+      "zoom3_count": 1
+    },
+    {
+      "id": "ca_phe_dac_san",
+      "label": "Cà phê đặc sản",
+      "parent_category_l1": [
+        "ca_phe",
+        "tra_sua"
+      ],
+      "place_count": 2,
+      "zoom2_count": 1,
+      "zoom3_count": 1
+    },
+    {
+      "id": "che_hue",
+      "label": "Chè Huế",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 2,
+      "zoom2_count": 0,
+      "zoom3_count": 2
+    },
+    {
+      "id": "nem_lui",
+      "label": "Nem lụi",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 2,
+      "zoom2_count": 1,
+      "zoom3_count": 1
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 2,
+      "zoom2_count": 1,
+      "zoom3_count": 1
+    },
+    {
+      "id": "am_thuc_nhat",
+      "label": "Ẩm thực Nhật",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 1,
+      "zoom2_count": 0,
+      "zoom3_count": 1
+    },
+    {
+      "id": "bun_thit_nuong",
+      "label": "Bún thịt nướng",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 1,
+      "zoom2_count": 0,
+      "zoom3_count": 1
+    },
+    {
+      "id": "ca_phe_muoi",
+      "label": "Cà phê muối",
+      "parent_category_l1": [
+        "ca_phe"
+      ],
+      "place_count": 1,
+      "zoom2_count": 0,
+      "zoom3_count": 1
+    },
+    {
+      "id": "ga_ran",
+      "label": "Gà rán",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 1,
+      "zoom2_count": 1,
+      "zoom3_count": 0
+    },
+    {
+      "id": "lau_chay",
+      "label": "Lẩu chay",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 1,
+      "zoom2_count": 0,
+      "zoom3_count": 1
+    },
+    {
+      "id": "matcha",
+      "label": "Matcha",
+      "parent_category_l1": [
+        "quan_nuoc"
+      ],
+      "place_count": 1,
+      "zoom2_count": 0,
+      "zoom3_count": 1
+    },
+    {
+      "id": "nuong_lau",
+      "label": "Nướng & Lẩu",
+      "parent_category_l1": [
+        "quan_an"
+      ],
+      "place_count": 1,
+      "zoom2_count": 1,
+      "zoom3_count": 0
+    },
+    {
+      "id": "tra_o_long",
+      "label": "Trà Ô Long",
+      "parent_category_l1": [
+        "tra_sua"
+      ],
+      "place_count": 1,
+      "zoom2_count": 1,
+      "zoom3_count": 0
+    }
+  ]
+}

@@ -33,6 +33,7 @@ const banks = {
   noi_hai_bo: "Nối hai bờ",
 };
 const types = {
+  quan_nuoc: "Quán nước",
   ca_phe: "Cà phê",
   tra_sua: "Trà sữa",
   quan_an: "Quán ăn",
@@ -71,11 +72,12 @@ const json = async (path) => {
   return res.json();
 };
 async function start() {
-  const [overview, geo, branches] = await Promise.all(
+  const [overview, geo, branches, local] = await Promise.all(
     [
       "hue-zoom1-overview.json",
       "hue-zoom1-ready.geojson",
       "hue-zoom2-branches.json",
+      "hue-zoom3.json",
     ].map(json),
   );
   const anchors = geo.features.filter((f) => f.properties.is_proposed_anchor);
@@ -95,7 +97,20 @@ async function start() {
       (rank.includes(a.id) ? rank.indexOf(a.id) : 99) -
       (rank.includes(b.id) ? rank.indexOf(b.id) : 99),
   );
-  places.push(...branches.records);
+  const buildings = new Map();
+  for (const metadata of local.shared_pin_groups) {
+    const building = places.find((r) => r.id === metadata.shared_pin_group);
+    const overviewPin = Boolean(building.coordinates);
+    Object.assign(building, metadata, {
+      minZoom: overviewPin ? 0 : display.branchZoom,
+    });
+    buildings.set(building.id, building);
+  }
+  places.push(
+    ...branches.records.map((r) => ({ ...r, minZoom: display.branchZoom })),
+    ...local.records.map((r) => ({ ...r, minZoom: display.localZoom })),
+  );
+
   const map = createMap(overview.viewport_config, anchors);
   let view = "explore",
     selected = null,
@@ -118,7 +133,7 @@ async function start() {
       element(
         "small",
         "",
-        [kind || types[r.category_l1], banks[r.riverbank]]
+        [kind || types[r.category_l1], banks[r.riverbank], r.floor_or_unit]
           .filter(Boolean)
           .join("  ·  "),
       ),
@@ -147,10 +162,7 @@ async function start() {
     if (focus && r.coordinates)
       map.easeTo({
         center: r.coordinates,
-        zoom: Math.max(
-          map.getZoom(),
-          r.category_l1 === "landmark" ? 14 : display.branchZoom + 0.3,
-        ),
+        zoom: Math.max(map.getZoom(), Math.max(14, (r.minZoom || 0) + 0.3)),
         duration: 450,
       });
     const box = $("#detail"),
@@ -179,6 +191,21 @@ async function start() {
       ),
     );
     box.append(addr);
+    if (r.floor_or_unit) box.append(element("p", "note", r.floor_or_unit));
+    if (r.coordinate_source_url) {
+      const source = element(
+        "a",
+        "note",
+        "Nguồn tọa độ · " +
+          r.coordinate_source_provider +
+          " · " +
+          r.coordinate_source_license,
+      );
+      source.href = r.coordinate_source_url;
+      source.target = "_blank";
+      source.rel = "noopener";
+      box.append(source);
+    }
     if (!r.coordinates)
       box.append(
         element("small", "note", "Chưa xác minh vị trí ghim trên bản đồ."),
@@ -224,17 +251,23 @@ async function start() {
   function drawMarkers() {
     markers.forEach((m) => m.remove());
     markers = [];
-    const near = map.getZoom() >= display.branchZoom;
-    $("#tier").textContent = near ? "Bản đồ chi tiết" : "Bản đồ tổng quan";
+    const zoom = map.getZoom();
+    const near = zoom >= display.branchZoom;
+    $("#tier").textContent =
+      zoom >= display.localZoom
+        ? "Quán địa phương"
+        : near
+          ? "Bản đồ chi tiết"
+          : "Bản đồ tổng quan";
     const groups = new Map();
     for (const r of matches) {
       if (
         !r.coordinates ||
         r.verification_status?.startsWith("tam_hoan") ||
-        (r.category_l1 !== "landmark" && !near)
+        zoom < (r.minZoom || 0)
       )
         continue;
-      const key = r.coordinates.join(",");
+      const key = r.shared_pin_group || r.id;
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(r);
     }
@@ -244,23 +277,18 @@ async function start() {
     const points = [...groups.values()].map((g) =>
       map.project(g[0].coordinates),
     );
-    for (const group of groups.values()) {
+    for (const [key, group] of groups) {
       const r = group[0];
       if (!inView.contains(r.coordinates)) continue;
       const p = map.project(r.coordinates);
-      if (occupied.some((q) => p.dist(q) < display.markerGap)) continue;
+      if (!near && occupied.some((q) => p.dist(q) < display.markerGap))
+        continue;
       occupied.push(p);
       const [glyph, color] = appearance(r);
       const el = element("button", "marker " + color);
       const branches = group.filter((b) => b.category_l1 !== "landmark");
-      const hub = branches.length > 1 || (branches.length && group.length > 1);
-      const building =
-        hub &&
-        places.find(
-          (place) =>
-            place.category_l1 === "landmark" &&
-            String(place.coordinates) === String(r.coordinates),
-        );
+      const building = buildings.get(key);
+      const hub = Boolean(building && near && branches.length);
       const name = hub
         ? building?.name_standard || "Cụm " + branches.length + " chi nhánh"
         : r.name_standard.replace(
@@ -314,11 +342,28 @@ async function start() {
           query,
         ),
     );
+    const dish = $("#dish");
+    const previous = dish.value;
+    const counts = new Map();
+    for (const place of matches) {
+      for (const tag of new Set(place.dish_tags || []))
+        counts.set(tag, (counts.get(tag) || 0) + 1);
+    }
+    dish.replaceChildren(new Option("Mọi món", ""));
+    for (const { id, label } of local.category_l2) {
+      if (counts.has(id))
+        dish.add(new Option(label + " (" + counts.get(id) + ")", id));
+    }
+    dish.value = counts.has(previous) ? previous : "";
+    if (dish.value)
+      matches = matches.filter((place) =>
+        place.dish_tags?.includes(dish.value),
+      );
     $("#count").textContent = matches.length;
     $(".listHead h2").textContent =
       view === "saved"
         ? "Địa điểm đã lưu"
-        : query || $("#bank").value || $("#category").value
+        : query || $("#bank").value || $("#category").value || dish.value
           ? "Kết quả tìm kiếm"
           : "Địa điểm khám phá";
     $("#list").replaceChildren(...matches.map(item));
@@ -341,6 +386,7 @@ async function start() {
     else render();
   }
   $("#query").oninput = filter;
+  $("#dish").onchange = filter;
   $("#bank").onchange = filter;
   $("#category").onchange = filter;
   for (const id of ["explore", "directory", "saved"])

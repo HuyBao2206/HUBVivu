@@ -618,3 +618,15 @@ body[data-view="saved"] .cover {
     width: calc(100% - 18px);
   }
 }
+.filters select {
+  max-width: 215px;
+  text-overflow: ellipsis;
+}
+@media (max-width: 760px) {
+  .filters {
+    flex-wrap: wrap;
+  }
+  .filters select {
+    max-width: 135px;
+  }
+}

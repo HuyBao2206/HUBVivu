@@ -3,6 +3,7 @@ import { layers, namedFlavor } from "@protomaps/basemaps";
 import "maplibre-gl/dist/maplibre-gl.css";
 
 export const display = {
+  localZoom: 15.5,
   branchZoom: 14.5,
   maxZoom: 18,
   markerGap: 28,
@@ -102,7 +103,11 @@ export function createMap(config, banks) {
     },
   });
   map.addControl(
-    new maplibregl.AttributionControl({ compact: false }),
+    new maplibregl.AttributionControl({
+      compact: false,
+      customAttribution:
+        '<a href="https://creativecommons.org/licenses/by-sa/4.0/">Wikipedia &amp; Wikivoyage contributors (CC BY-SA 4.0)</a>',
+    }),
     "bottom-right",
   );
   map.addControl(
